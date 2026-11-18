@@ -1,0 +1,4868 @@
+{
+ "proiect": {
+  "titlu": "Penetrări dinamice super-grele (DPSH) – H2 Plant Cernavodă",
+  "obiectiv": "Construire capacitate de producție hidrogen verde prin electroliză, capacități de comprimare și stocare",
+  "beneficiar_lucrare": "S.C. ELEKTRA POWER S.R.L.",
+  "amplasament": "Orașul Cernavodă, extravilan, parcela A164/14, nr. cadastral 107056, jud. Constanța",
+  "tip_lucrari": "Penetrări dinamice super-grele (DPSH, SR EN ISO 22476-2), adâncime 2,00 m, pe terasamentul din pământ coeziv stabilizat cu liant hidraulic",
+  "plan": "Planuri Amplasare Teste In Situ Rev. 03 (17.11.2026), S.C. Eco Geo Project S.R.L.",
+  "perioada": {
+   "de_la": "2026-11-17",
+   "pana_la": "2026-11-17"
+  },
+  "generat": "2026-11-18"
+ },
+ "echipament": {
+  "nume": "DPSH TG 63-200 PAGANI (preset GeoStru Dynamic Probing)",
+  "M": 63.5,
+  "H": 75.0,
+  "A": 20.43,
+  "pas": 20.0,
+  "tija_kg": 6.31,
+  "nicovala_kg": 0.63,
+  "unghi": 90,
+  "prima_imbinare": 0.4,
+  "beta": 1.47,
+  "norma": "SR EN ISO 22476-2"
+ },
+ "baza_terasament": 1.0,
+ "clase": [
+  {
+   "de": 0,
+   "la": 5,
+   "culoare": "#D9E8F5",
+   "nume": "sub 5"
+  },
+  {
+   "de": 5,
+   "la": 10,
+   "culoare": "#9CC3E4",
+   "nume": "5–9"
+  },
+  {
+   "de": 10,
+   "la": 20,
+   "culoare": "#4F93CE",
+   "nume": "10–19"
+  },
+  {
+   "de": 20,
+   "la": 30,
+   "culoare": "#0069B4",
+   "nume": "20–29"
+  },
+  {
+   "de": 30,
+   "la": 999,
+   "culoare": "#0A2F4F",
+   "nume": "30 și peste"
+  }
+ ],
+ "sectiune": [
+  {
+   "de": 0.0,
+   "la": 1.0,
+   "nume": "Terasament din pământ coeziv stabilizat cu liant hidraulic (4 straturi × 0,25 m)"
+  },
+  {
+   "de": 1.0,
+   "la": 2.0,
+   "nume": "Teren natural – praf argilos loessoid"
+  }
+ ],
+ "dpsh": [
+  {
+   "id": "L4",
+   "eticheta": "Penetrare dinamică super-grea L4",
+   "data": "2026-11-17",
+   "adancime": 2.0,
+   "gps_dms": [
+    "N 44°20'09,3\"",
+    "E 028°05'04,3\""
+   ],
+   "lat": 44.335917,
+   "lon": 28.084528,
+   "stereo70": {
+    "N": 319797.5,
+    "E": 746106.5
+   },
+   "randuri": [
+    {
+     "z": 0.2,
+     "N": 31,
+     "tije": 1,
+     "rpd": 325.73,
+     "qd": 31.94,
+     "nspt": 45.6,
+     "cls": 4
+    },
+    {
+     "z": 0.4,
+     "N": 38,
+     "tije": 1,
+     "rpd": 399.28,
+     "qd": 39.16,
+     "nspt": 55.9,
+     "cls": 4
+    },
+    {
+     "z": 0.6,
+     "N": 27,
+     "tije": 2,
+     "rpd": 260.37,
+     "qd": 25.53,
+     "nspt": 39.7,
+     "cls": 3
+    },
+    {
+     "z": 0.8,
+     "N": 39,
+     "tije": 2,
+     "rpd": 376.09,
+     "qd": 36.88,
+     "nspt": 57.3,
+     "cls": 4
+    },
+    {
+     "z": 1.0,
+     "N": 29,
+     "tije": 2,
+     "rpd": 279.66,
+     "qd": 27.43,
+     "nspt": 42.6,
+     "cls": 3
+    },
+    {
+     "z": 1.2,
+     "N": 22,
+     "tije": 2,
+     "rpd": 212.16,
+     "qd": 20.81,
+     "nspt": 32.3,
+     "cls": 3
+    },
+    {
+     "z": 1.4,
+     "N": 10,
+     "tije": 2,
+     "rpd": 96.43,
+     "qd": 9.46,
+     "nspt": 14.7,
+     "cls": 2
+    },
+    {
+     "z": 1.6,
+     "N": 10,
+     "tije": 3,
+     "rpd": 89.11,
+     "qd": 8.74,
+     "nspt": 14.7,
+     "cls": 2
+    },
+    {
+     "z": 1.8,
+     "N": 10,
+     "tije": 3,
+     "rpd": 89.11,
+     "qd": 8.74,
+     "nspt": 14.7,
+     "cls": 2
+    },
+    {
+     "z": 2.0,
+     "N": 10,
+     "tije": 3,
+     "rpd": 89.11,
+     "qd": 8.74,
+     "nspt": 14.7,
+     "cls": 2
+    }
+   ],
+   "N_min": 10,
+   "N_max": 39,
+   "N_med_sup": 32.8,
+   "N_med_inf": 12.4,
+   "qd_med_sup": 32.2,
+   "qd_med_inf": 11.3,
+   "note": [
+    "La 0,80 m s-a citit 39 lovituri, dar a doua cifră poate fi și 3 (33).",
+    "Coordonate: fișa indică N 44°20'09,3\", eticheta din fotografie N 44°20'09,5\", s-a reținut valoarea din fișă."
+   ],
+   "fisa_foto": {
+    "src": "photos/L4/fisa1.jpg",
+    "thumb": "photos/L4/t_fisa1.jpg",
+    "original": "WhatsApp Image 2026-11-17 at 1.18.49 PM.jpeg",
+    "w": 1050,
+    "h": 1400,
+    "ora": "13:18"
+   },
+   "eticheta_foto": {
+    "src": "photos/L4/eticheta.jpg",
+    "thumb": "photos/L4/t_eticheta.jpg",
+    "original": "WhatsApp Image 2026-11-17 at 1.18.50 PM (1).jpeg",
+    "w": 900,
+    "h": 1200,
+    "ora": "13:18"
+   },
+   "poze": [
+    {
+     "src": "photos/L4/01.jpg",
+     "thumb": "photos/L4/t_01.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 1.18.49 PM (1).jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "13:18"
+    },
+    {
+     "src": "photos/L4/02.jpg",
+     "thumb": "photos/L4/t_02.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 1.18.49 PM (2).jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "13:18"
+    },
+    {
+     "src": "photos/L4/03.jpg",
+     "thumb": "photos/L4/t_03.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 1.18.50 PM.jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "13:18"
+    }
+   ],
+   "ora_poze": "13:18",
+   "dynamic": {
+    "coezive": [
+     {
+      "parametru": "Undrained cohesion",
+      "unitate": "Kg/cm²",
+      "coloana": "Cu (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 42.98,
+        "interval": "0.00-1.00",
+        "corelatie": "Terzaghi-Peck",
+        "valoare": "2.90",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.04,
+        "interval": "1.00-2.00",
+        "corelatie": "Terzaghi-Peck",
+        "valoare": "0.88",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Qc (CPT Cone resistance)",
+      "unitate": "Kg/cm²",
+      "coloana": "Qc (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 42.98,
+        "interval": "0.00-1.00",
+        "corelatie": "Robertson (1983)",
+        "valoare": "85.96",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.04,
+        "interval": "1.00-2.00",
+        "corelatie": "Robertson (1983)",
+        "valoare": "26.08",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Oedometric module",
+      "unitate": "Kg/cm²",
+      "coloana": "Eed (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 42.98,
+        "interval": "0.00-1.00",
+        "corelatie": "Trofimenkov (1974), Mitchell e Gardner",
+        "valoare": "440.16",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.04,
+        "interval": "1.00-2.00",
+        "corelatie": "Trofimenkov (1974), Mitchell e Gardner",
+        "valoare": "134.79",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Young's modulus",
+      "unitate": "Kg/cm²",
+      "coloana": "Ey (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 42.98,
+        "interval": "0.00-1.00",
+        "corelatie": "Apollonia",
+        "valoare": "429.80",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.04,
+        "interval": "1.00-2.00",
+        "corelatie": "Apollonia",
+        "valoare": "130.40",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "AGI Classification (Assoc. It. Geolog.)",
+      "unitate": "",
+      "coloana": "Classification",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 42.98,
+        "interval": "0.00-1.00",
+        "corelatie": "A.G.I. (1977)",
+        "valoare": "ESTREM. CONSISTENTE",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.04,
+        "interval": "1.00-2.00",
+        "corelatie": "A.G.I. (1977)",
+        "valoare": "CONSISTENTE",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Unit weight",
+      "unitate": "t/m³",
+      "coloana": "Unit weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 42.98,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof",
+        "valoare": "2.50",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.04,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof",
+        "valoare": "2.04",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Saturated unit weight",
+      "unitate": "t/m³",
+      "coloana": "Saturated unit weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 42.98,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof",
+        "valoare": "2.50",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.04,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof",
+        "valoare": "2.24",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Shear wave velocity",
+      "unitate": "m/s",
+      "coloana": "Shear wave velocity (m/s)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 42.98,
+        "interval": "0.00-1.00",
+        "corelatie": "Ohta & Goto (1978) Low plasticity clays and silty clays",
+        "valoare": "114.7",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.04,
+        "interval": "1.00-2.00",
+        "corelatie": "Ohta & Goto (1978) Low plasticity clays and silty clays",
+        "valoare": "115.36",
+        "n_calcul": null
+       }
+      ]
+     }
+    ],
+    "necoezive": [
+     {
+      "parametru": "Relative density",
+      "unitate": "%",
+      "coloana": "Relative density (%)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 42.98,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof 1957",
+        "valoare": "100",
+        "n_calcul": "42.98"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.04,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof 1957",
+        "valoare": "73.94",
+        "n_calcul": "13.04"
+       }
+      ]
+     },
+     {
+      "parametru": "Shear resistance angle",
+      "unitate": "°",
+      "coloana": "Angle of friction (°)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 42.98,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof (1956)",
+        "valoare": "32.28",
+        "n_calcul": "42.98"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.04,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof (1956)",
+        "valoare": "23.73",
+        "n_calcul": "13.04"
+       }
+      ]
+     },
+     {
+      "parametru": "Young's modulus",
+      "unitate": "Kg/cm²",
+      "coloana": "Young's modulus (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 42.98,
+        "interval": "0.00-1.00",
+        "corelatie": "Bowles (1982) Sabbia Media",
+        "valoare": "289.90",
+        "n_calcul": "42.98"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.04,
+        "interval": "1.00-2.00",
+        "corelatie": "Bowles (1982) Sabbia Media",
+        "valoare": "140.20",
+        "n_calcul": "13.04"
+       }
+      ]
+     },
+     {
+      "parametru": "Oedometric module",
+      "unitate": "Kg/cm²",
+      "coloana": "Oedometric module (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 42.98,
+        "interval": "0.00-1.00",
+        "corelatie": "Begemann 1974 (Ghiaia con sabbia)",
+        "valoare": "115.75",
+        "n_calcul": "42.98"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.04,
+        "interval": "1.00-2.00",
+        "corelatie": "Begemann 1974 (Ghiaia con sabbia)",
+        "valoare": "54.25",
+        "n_calcul": "13.04"
+       }
+      ]
+     },
+     {
+      "parametru": "AGI Classification (Assoc. It. Geolog.)",
+      "unitate": "Assoc. It. Geolog.",
+      "coloana": "AGI Classification (Assoc. It. Geolog.)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 42.98,
+        "interval": "0.00-1.00",
+        "corelatie": "Classification A.G.I",
+        "valoare": "THICKENED",
+        "n_calcul": "42.98"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.04,
+        "interval": "1.00-2.00",
+        "corelatie": "Classification A.G.I",
+        "valoare": "MODERATELY THICKENED",
+        "n_calcul": "13.04"
+       }
+      ]
+     },
+     {
+      "parametru": "Unit weight",
+      "unitate": "t/m³",
+      "coloana": "Unit Weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 42.98,
+        "interval": "0.00-1.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.81",
+        "n_calcul": "42.98"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.04,
+        "interval": "1.00-2.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.52",
+        "n_calcul": "13.04"
+       }
+      ]
+     },
+     {
+      "parametru": "Saturated unit weight",
+      "unitate": "t/m³",
+      "coloana": "Saturated weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 42.98,
+        "interval": "0.00-1.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "2.12",
+        "n_calcul": "42.98"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.04,
+        "interval": "1.00-2.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.94",
+        "n_calcul": "13.04"
+       }
+      ]
+     },
+     {
+      "parametru": "Poisson's modulus",
+      "unitate": "",
+      "coloana": "Poisson",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 42.98,
+        "interval": "0.00-1.00",
+        "corelatie": "(A.G.I.)",
+        "valoare": "0.27",
+        "n_calcul": "42.98"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.04,
+        "interval": "1.00-2.00",
+        "corelatie": "(A.G.I.)",
+        "valoare": "0.33",
+        "n_calcul": "13.04"
+       }
+      ]
+     },
+     {
+      "parametru": "Dynamic shear modulus",
+      "unitate": "Kg/cm²",
+      "coloana": "G (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 42.98,
+        "interval": "0.00-1.00",
+        "corelatie": "Ohsaki (Sabbie pulite)",
+        "valoare": "2229.38",
+        "n_calcul": "42.98"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.04,
+        "interval": "1.00-2.00",
+        "corelatie": "Ohsaki (Sabbie pulite)",
+        "valoare": "726.56",
+        "n_calcul": "13.04"
+       }
+      ]
+     },
+     {
+      "parametru": "Shear wave velocity",
+      "unitate": "m/s",
+      "coloana": "Shear wave velocity (m/s)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 42.98,
+        "interval": "0.00-1.00",
+        "corelatie": "Ohta & Goto (1978) Silts",
+        "valoare": "114.7",
+        "n_calcul": "42.98"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.04,
+        "interval": "1.00-2.00",
+        "corelatie": "Ohta & Goto (1978) Silts",
+        "valoare": "115.36",
+        "n_calcul": "13.04"
+       }
+      ]
+     },
+     {
+      "parametru": "Coefficient of earth pressure at rest K0=SigmaH/P0",
+      "unitate": "",
+      "coloana": "K0",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 42.98,
+        "interval": "0.00-1.00",
+        "corelatie": "Navfac 1971-1982",
+        "valoare": "7.26",
+        "n_calcul": "42.98"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.04,
+        "interval": "1.00-2.00",
+        "corelatie": "Navfac 1971-1982",
+        "valoare": "2.74",
+        "n_calcul": "13.04"
+       }
+      ]
+     },
+     {
+      "parametru": "Qc (CPT Cone resistance)",
+      "unitate": "Kg/cm²",
+      "coloana": "Qc (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 42.98,
+        "interval": "0.00-1.00",
+        "corelatie": "Robertson 1983",
+        "valoare": "85.96",
+        "n_calcul": "42.98"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.04,
+        "interval": "1.00-2.00",
+        "corelatie": "Robertson 1983",
+        "valoare": "26.08",
+        "n_calcul": "13.04"
+       }
+      ]
+     }
+    ]
+   },
+   "ordine": 1
+  },
+  {
+   "id": "L7",
+   "eticheta": "Penetrare dinamică super-grea L7",
+   "data": "2026-11-17",
+   "adancime": 2.0,
+   "gps_dms": [
+    "N 44°20'08,9\"",
+    "E 028°05'04,6\""
+   ],
+   "lat": 44.335806,
+   "lon": 28.084611,
+   "stereo70": {
+    "N": 319785.4,
+    "E": 746113.6
+   },
+   "randuri": [
+    {
+     "z": 0.2,
+     "N": 33,
+     "tije": 1,
+     "rpd": 346.74,
+     "qd": 34.0,
+     "nspt": 48.5,
+     "cls": 4
+    },
+    {
+     "z": 0.4,
+     "N": 18,
+     "tije": 1,
+     "rpd": 189.13,
+     "qd": 18.55,
+     "nspt": 26.5,
+     "cls": 2
+    },
+    {
+     "z": 0.6,
+     "N": 19,
+     "tije": 2,
+     "rpd": 183.23,
+     "qd": 17.97,
+     "nspt": 27.9,
+     "cls": 2
+    },
+    {
+     "z": 0.8,
+     "N": 6,
+     "tije": 2,
+     "rpd": 57.86,
+     "qd": 5.67,
+     "nspt": 8.8,
+     "cls": 1
+    },
+    {
+     "z": 1.0,
+     "N": 6,
+     "tije": 2,
+     "rpd": 57.86,
+     "qd": 5.67,
+     "nspt": 8.8,
+     "cls": 1
+    },
+    {
+     "z": 1.2,
+     "N": 9,
+     "tije": 2,
+     "rpd": 86.79,
+     "qd": 8.51,
+     "nspt": 13.2,
+     "cls": 1
+    },
+    {
+     "z": 1.4,
+     "N": 9,
+     "tije": 2,
+     "rpd": 86.79,
+     "qd": 8.51,
+     "nspt": 13.2,
+     "cls": 1
+    },
+    {
+     "z": 1.6,
+     "N": 8,
+     "tije": 3,
+     "rpd": 71.29,
+     "qd": 6.99,
+     "nspt": 11.8,
+     "cls": 1
+    },
+    {
+     "z": 1.8,
+     "N": 9,
+     "tije": 3,
+     "rpd": 80.2,
+     "qd": 7.86,
+     "nspt": 13.2,
+     "cls": 1
+    },
+    {
+     "z": 2.0,
+     "N": 9,
+     "tije": 3,
+     "rpd": 80.2,
+     "qd": 7.86,
+     "nspt": 13.2,
+     "cls": 1
+    }
+   ],
+   "N_min": 6,
+   "N_max": 33,
+   "N_med_sup": 16.4,
+   "N_med_inf": 8.8,
+   "qd_med_sup": 16.4,
+   "qd_med_inf": 7.9,
+   "note": [],
+   "fisa_foto": {
+    "src": "photos/L7/fisa1.jpg",
+    "thumb": "photos/L7/t_fisa1.jpg",
+    "original": "WhatsApp Image 2026-11-17 at 3.07.31 PM.jpeg",
+    "w": 1050,
+    "h": 1400,
+    "ora": "15:07"
+   },
+   "eticheta_foto": {
+    "src": "photos/L7/eticheta.jpg",
+    "thumb": "photos/L7/t_eticheta.jpg",
+    "original": "WhatsApp Image 2026-11-17 at 3.07.30 PM (1).jpeg",
+    "w": 900,
+    "h": 1200,
+    "ora": "15:07"
+   },
+   "poze": [
+    {
+     "src": "photos/L7/01.jpg",
+     "thumb": "photos/L7/t_01.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 3.07.30 PM.jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "15:07"
+    },
+    {
+     "src": "photos/L7/02.jpg",
+     "thumb": "photos/L7/t_02.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 3.07.31 PM (1).jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "15:07"
+    },
+    {
+     "src": "photos/L7/03.jpg",
+     "thumb": "photos/L7/t_03.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 3.07.32 PM (1).jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "15:07"
+    },
+    {
+     "src": "photos/L7/04.jpg",
+     "thumb": "photos/L7/t_04.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 3.07.32 PM.jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "15:07"
+    }
+   ],
+   "ora_poze": "15:07",
+   "dynamic": {
+    "coezive": [
+     {
+      "parametru": "Undrained cohesion",
+      "unitate": "Kg/cm²",
+      "coloana": "Cu (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.27,
+        "interval": "0.00-1.00",
+        "corelatie": "Terzaghi-Peck",
+        "valoare": "0.90",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Terzaghi-Peck",
+        "valoare": "0.84",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Qc (CPT Cone resistance)",
+      "unitate": "Kg/cm²",
+      "coloana": "Qc (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.27,
+        "interval": "0.00-1.00",
+        "corelatie": "Robertson (1983)",
+        "valoare": "26.54",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Robertson (1983)",
+        "valoare": "25.02",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Oedometric module",
+      "unitate": "Kg/cm²",
+      "coloana": "Eed (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.27,
+        "interval": "0.00-1.00",
+        "corelatie": "Trofimenkov (1974), Mitchell e Gardner",
+        "valoare": "137.14",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Trofimenkov (1974), Mitchell e Gardner",
+        "valoare": "129.39",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Young's modulus",
+      "unitate": "Kg/cm²",
+      "coloana": "Ey (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.27,
+        "interval": "0.00-1.00",
+        "corelatie": "Apollonia",
+        "valoare": "132.70",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Apollonia",
+        "valoare": "125.10",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "AGI Classification (Assoc. It. Geolog.)",
+      "unitate": "",
+      "coloana": "Classification",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.27,
+        "interval": "0.00-1.00",
+        "corelatie": "A.G.I. (1977)",
+        "valoare": "CONSISTENTE",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "A.G.I. (1977)",
+        "valoare": "CONSISTENTE",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Unit weight",
+      "unitate": "t/m³",
+      "coloana": "Unit weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.27,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof",
+        "valoare": "2.04",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof",
+        "valoare": "2.03",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Saturated unit weight",
+      "unitate": "t/m³",
+      "coloana": "Saturated unit weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.27,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof",
+        "valoare": "2.24",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof",
+        "valoare": "2.23",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Shear wave velocity",
+      "unitate": "m/s",
+      "coloana": "Shear wave velocity (m/s)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.27,
+        "interval": "0.00-1.00",
+        "corelatie": "Ohta & Goto (1978) Low plasticity clays and silty clays",
+        "valoare": "93.6",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Ohta & Goto (1978) Low plasticity clays and silty clays",
+        "valoare": "114.53",
+        "n_calcul": null
+       }
+      ]
+     }
+    ],
+    "necoezive": [
+     {
+      "parametru": "Relative density",
+      "unitate": "%",
+      "coloana": "Relative density (%)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.27,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof 1957",
+        "valoare": "85.42",
+        "n_calcul": "13.27"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof 1957",
+        "valoare": "74.07",
+        "n_calcul": "12.51"
+       }
+      ]
+     },
+     {
+      "parametru": "Shear resistance angle",
+      "unitate": "°",
+      "coloana": "Angle of friction (°)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.27,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof (1956)",
+        "valoare": "23.79",
+        "n_calcul": "13.27"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof (1956)",
+        "valoare": "23.57",
+        "n_calcul": "12.51"
+       }
+      ]
+     },
+     {
+      "parametru": "Young's modulus",
+      "unitate": "Kg/cm²",
+      "coloana": "Young's modulus (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.27,
+        "interval": "0.00-1.00",
+        "corelatie": "Bowles (1982) Sabbia Media",
+        "valoare": "141.35",
+        "n_calcul": "13.27"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Bowles (1982) Sabbia Media",
+        "valoare": "137.55",
+        "n_calcul": "12.51"
+       }
+      ]
+     },
+     {
+      "parametru": "Oedometric module",
+      "unitate": "Kg/cm²",
+      "coloana": "Oedometric module (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.27,
+        "interval": "0.00-1.00",
+        "corelatie": "Begemann 1974 (Ghiaia con sabbia)",
+        "valoare": "54.72",
+        "n_calcul": "13.27"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Begemann 1974 (Ghiaia con sabbia)",
+        "valoare": "53.16",
+        "n_calcul": "12.51"
+       }
+      ]
+     },
+     {
+      "parametru": "AGI Classification (Assoc. It. Geolog.)",
+      "unitate": "Assoc. It. Geolog.",
+      "coloana": "AGI Classification (Assoc. It. Geolog.)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.27,
+        "interval": "0.00-1.00",
+        "corelatie": "Classification A.G.I",
+        "valoare": "MODERATELY THICKENED",
+        "n_calcul": "13.27"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Classification A.G.I",
+        "valoare": "MODERATELY THICKENED",
+        "n_calcul": "12.51"
+       }
+      ]
+     },
+     {
+      "parametru": "Unit weight",
+      "unitate": "t/m³",
+      "coloana": "Unit Weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.27,
+        "interval": "0.00-1.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.52",
+        "n_calcul": "13.27"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.51",
+        "n_calcul": "12.51"
+       }
+      ]
+     },
+     {
+      "parametru": "Saturated unit weight",
+      "unitate": "t/m³",
+      "coloana": "Saturated weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.27,
+        "interval": "0.00-1.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.94",
+        "n_calcul": "13.27"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.94",
+        "n_calcul": "12.51"
+       }
+      ]
+     },
+     {
+      "parametru": "Poisson's modulus",
+      "unitate": "",
+      "coloana": "Poisson",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.27,
+        "interval": "0.00-1.00",
+        "corelatie": "(A.G.I.)",
+        "valoare": "0.33",
+        "n_calcul": "13.27"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "(A.G.I.)",
+        "valoare": "0.33",
+        "n_calcul": "12.51"
+       }
+      ]
+     },
+     {
+      "parametru": "Dynamic shear modulus",
+      "unitate": "Kg/cm²",
+      "coloana": "G (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.27,
+        "interval": "0.00-1.00",
+        "corelatie": "Ohsaki (Sabbie pulite)",
+        "valoare": "738.60",
+        "n_calcul": "13.27"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Ohsaki (Sabbie pulite)",
+        "valoare": "698.77",
+        "n_calcul": "12.51"
+       }
+      ]
+     },
+     {
+      "parametru": "Shear wave velocity",
+      "unitate": "m/s",
+      "coloana": "Shear wave velocity (m/s)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.27,
+        "interval": "0.00-1.00",
+        "corelatie": "Ohta & Goto (1978) Silts",
+        "valoare": "93.6",
+        "n_calcul": "13.27"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Ohta & Goto (1978) Silts",
+        "valoare": "114.53",
+        "n_calcul": "12.51"
+       }
+      ]
+     },
+     {
+      "parametru": "Coefficient of earth pressure at rest K0=SigmaH/P0",
+      "unitate": "",
+      "coloana": "K0",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.27,
+        "interval": "0.00-1.00",
+        "corelatie": "Navfac 1971-1982",
+        "valoare": "2.78",
+        "n_calcul": "13.27"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Navfac 1971-1982",
+        "valoare": "2.63",
+        "n_calcul": "12.51"
+       }
+      ]
+     },
+     {
+      "parametru": "Qc (CPT Cone resistance)",
+      "unitate": "Kg/cm²",
+      "coloana": "Qc (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.27,
+        "interval": "0.00-1.00",
+        "corelatie": "Robertson 1983",
+        "valoare": "26.54",
+        "n_calcul": "13.27"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Robertson 1983",
+        "valoare": "25.02",
+        "n_calcul": "12.51"
+       }
+      ]
+     }
+    ]
+   },
+   "ordine": 2
+  },
+  {
+   "id": "L6",
+   "eticheta": "Penetrare dinamică super-grea L6",
+   "data": "2026-11-17",
+   "adancime": 2.0,
+   "gps_dms": [
+    "N 44°20'09,2\"",
+    "E 028°05'04,9\""
+   ],
+   "lat": 44.335889,
+   "lon": 28.084694,
+   "stereo70": {
+    "N": 319794.9,
+    "E": 746119.9
+   },
+   "randuri": [
+    {
+     "z": 0.2,
+     "N": 24,
+     "tije": 1,
+     "rpd": 252.18,
+     "qd": 24.73,
+     "nspt": 35.3,
+     "cls": 3
+    },
+    {
+     "z": 0.4,
+     "N": 14,
+     "tije": 1,
+     "rpd": 147.1,
+     "qd": 14.43,
+     "nspt": 20.6,
+     "cls": 2
+    },
+    {
+     "z": 0.6,
+     "N": 12,
+     "tije": 2,
+     "rpd": 115.72,
+     "qd": 11.35,
+     "nspt": 17.6,
+     "cls": 2
+    },
+    {
+     "z": 0.8,
+     "N": 10,
+     "tije": 2,
+     "rpd": 96.43,
+     "qd": 9.46,
+     "nspt": 14.7,
+     "cls": 2
+    },
+    {
+     "z": 1.0,
+     "N": 5,
+     "tije": 2,
+     "rpd": 48.22,
+     "qd": 4.73,
+     "nspt": 7.3,
+     "cls": 1
+    },
+    {
+     "z": 1.2,
+     "N": 6,
+     "tije": 2,
+     "rpd": 57.86,
+     "qd": 5.67,
+     "nspt": 8.8,
+     "cls": 1
+    },
+    {
+     "z": 1.4,
+     "N": 7,
+     "tije": 2,
+     "rpd": 67.5,
+     "qd": 6.62,
+     "nspt": 10.3,
+     "cls": 1
+    },
+    {
+     "z": 1.6,
+     "N": 6,
+     "tije": 3,
+     "rpd": 53.47,
+     "qd": 5.24,
+     "nspt": 8.8,
+     "cls": 1
+    },
+    {
+     "z": 1.8,
+     "N": 2,
+     "tije": 3,
+     "rpd": 17.82,
+     "qd": 1.75,
+     "nspt": 2.9,
+     "cls": 0
+    },
+    {
+     "z": 2.0,
+     "N": 7,
+     "tije": 3,
+     "rpd": 62.38,
+     "qd": 6.12,
+     "nspt": 10.3,
+     "cls": 1
+    }
+   ],
+   "N_min": 2,
+   "N_max": 24,
+   "N_med_sup": 13.0,
+   "N_med_inf": 5.6,
+   "qd_med_sup": 12.9,
+   "qd_med_inf": 5.1,
+   "note": [
+    "La 1,80 m în fișă apare 2 lovituri, mult sub valorile vecine (6 și 7), s-a păstrat valoarea scrisă."
+   ],
+   "fisa_foto": {
+    "src": "photos/L6/fisa1.jpg",
+    "thumb": "photos/L6/t_fisa1.jpg",
+    "original": "WhatsApp Image 2026-11-17 at 3.09.18 PM.jpeg",
+    "w": 1050,
+    "h": 1400,
+    "ora": "15:09"
+   },
+   "eticheta_foto": {
+    "src": "photos/L6/eticheta.jpg",
+    "thumb": "photos/L6/t_eticheta.jpg",
+    "original": "WhatsApp Image 2026-11-17 at 3.09.23 PM (1).jpeg",
+    "w": 900,
+    "h": 1200,
+    "ora": "15:09"
+   },
+   "poze": [
+    {
+     "src": "photos/L6/01.jpg",
+     "thumb": "photos/L6/t_01.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 3.09.19 PM.jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "15:09"
+    },
+    {
+     "src": "photos/L6/02.jpg",
+     "thumb": "photos/L6/t_02.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 3.09.20 PM.jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "15:09"
+    },
+    {
+     "src": "photos/L6/03.jpg",
+     "thumb": "photos/L6/t_03.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 3.09.21 PM.jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "15:09"
+    },
+    {
+     "src": "photos/L6/04.jpg",
+     "thumb": "photos/L6/t_04.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 3.09.22 PM.jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "15:09"
+    },
+    {
+     "src": "photos/L6/05.jpg",
+     "thumb": "photos/L6/t_05.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 3.09.23 PM.jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "15:09"
+    }
+   ],
+   "ora_poze": "15:09",
+   "dynamic": {
+    "coezive": [
+     {
+      "parametru": "Undrained cohesion",
+      "unitate": "Kg/cm²",
+      "coloana": "Cu (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 12.33,
+        "interval": "0.00-1.00",
+        "corelatie": "Terzaghi-Peck",
+        "valoare": "0.83",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 6.23,
+        "interval": "1.00-2.00",
+        "corelatie": "Terzaghi-Peck",
+        "valoare": "0.39",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Qc (CPT Cone resistance)",
+      "unitate": "Kg/cm²",
+      "coloana": "Qc (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 12.33,
+        "interval": "0.00-1.00",
+        "corelatie": "Robertson (1983)",
+        "valoare": "24.66",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 6.23,
+        "interval": "1.00-2.00",
+        "corelatie": "Robertson (1983)",
+        "valoare": "12.46",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Oedometric module",
+      "unitate": "Kg/cm²",
+      "coloana": "Eed (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 12.33,
+        "interval": "0.00-1.00",
+        "corelatie": "Trofimenkov (1974), Mitchell e Gardner",
+        "valoare": "127.55",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 6.23,
+        "interval": "1.00-2.00",
+        "corelatie": "Trofimenkov (1974), Mitchell e Gardner",
+        "valoare": "65.33",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Young's modulus",
+      "unitate": "Kg/cm²",
+      "coloana": "Ey (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 12.33,
+        "interval": "0.00-1.00",
+        "corelatie": "Apollonia",
+        "valoare": "123.30",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 6.23,
+        "interval": "1.00-2.00",
+        "corelatie": "Apollonia",
+        "valoare": "62.30",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "AGI Classification (Assoc. It. Geolog.)",
+      "unitate": "",
+      "coloana": "Classification",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 12.33,
+        "interval": "0.00-1.00",
+        "corelatie": "A.G.I. (1977)",
+        "valoare": "CONSISTENTE",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 6.23,
+        "interval": "1.00-2.00",
+        "corelatie": "A.G.I. (1977)",
+        "valoare": "MODERAT. CONSISTENTE",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Unit weight",
+      "unitate": "t/m³",
+      "coloana": "Unit weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 12.33,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof",
+        "valoare": "2.02",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 6.23,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof",
+        "valoare": "1.82",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Saturated unit weight",
+      "unitate": "t/m³",
+      "coloana": "Saturated unit weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 12.33,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof",
+        "valoare": "2.22",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 6.23,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof",
+        "valoare": "1.89",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Shear wave velocity",
+      "unitate": "m/s",
+      "coloana": "Shear wave velocity (m/s)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 12.33,
+        "interval": "0.00-1.00",
+        "corelatie": "Ohta & Goto (1978) Low plasticity clays and silty clays",
+        "valoare": "92.42",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 6.23,
+        "interval": "1.00-2.00",
+        "corelatie": "Ohta & Goto (1978) Low plasticity clays and silty clays",
+        "valoare": "101.52",
+        "n_calcul": null
+       }
+      ]
+     }
+    ],
+    "necoezive": [
+     {
+      "parametru": "Relative density",
+      "unitate": "%",
+      "coloana": "Relative density (%)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 12.33,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof 1957",
+        "valoare": "82.39",
+        "n_calcul": "12.33"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 6.23,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof 1957",
+        "valoare": "52.6",
+        "n_calcul": "6.23"
+       }
+      ]
+     },
+     {
+      "parametru": "Shear resistance angle",
+      "unitate": "°",
+      "coloana": "Angle of friction (°)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 12.33,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof (1956)",
+        "valoare": "23.52",
+        "n_calcul": "12.33"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 6.23,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof (1956)",
+        "valoare": "21.78",
+        "n_calcul": "6.23"
+       }
+      ]
+     },
+     {
+      "parametru": "Young's modulus",
+      "unitate": "Kg/cm²",
+      "coloana": "Young's modulus (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 12.33,
+        "interval": "0.00-1.00",
+        "corelatie": "Bowles (1982) Sabbia Media",
+        "valoare": "136.65",
+        "n_calcul": "12.33"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 6.23,
+        "interval": "1.00-2.00",
+        "corelatie": "Bowles (1982) Sabbia Media",
+        "valoare": "---",
+        "n_calcul": "6.23"
+       }
+      ]
+     },
+     {
+      "parametru": "Oedometric module",
+      "unitate": "Kg/cm²",
+      "coloana": "Oedometric module (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 12.33,
+        "interval": "0.00-1.00",
+        "corelatie": "Begemann 1974 (Ghiaia con sabbia)",
+        "valoare": "52.79",
+        "n_calcul": "12.33"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 6.23,
+        "interval": "1.00-2.00",
+        "corelatie": "Begemann 1974 (Ghiaia con sabbia)",
+        "valoare": "40.26",
+        "n_calcul": "6.23"
+       }
+      ]
+     },
+     {
+      "parametru": "AGI Classification (Assoc. It. Geolog.)",
+      "unitate": "Assoc. It. Geolog.",
+      "coloana": "AGI Classification (Assoc. It. Geolog.)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 12.33,
+        "interval": "0.00-1.00",
+        "corelatie": "Classification A.G.I",
+        "valoare": "MODERATELY THICKENED",
+        "n_calcul": "12.33"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 6.23,
+        "interval": "1.00-2.00",
+        "corelatie": "Classification A.G.I",
+        "valoare": "SLIGHTLY THICKENED",
+        "n_calcul": "6.23"
+       }
+      ]
+     },
+     {
+      "parametru": "Unit weight",
+      "unitate": "t/m³",
+      "coloana": "Unit Weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 12.33,
+        "interval": "0.00-1.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.51",
+        "n_calcul": "12.33"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 6.23,
+        "interval": "1.00-2.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.43",
+        "n_calcul": "6.23"
+       }
+      ]
+     },
+     {
+      "parametru": "Saturated unit weight",
+      "unitate": "t/m³",
+      "coloana": "Saturated weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 12.33,
+        "interval": "0.00-1.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.94",
+        "n_calcul": "12.33"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 6.23,
+        "interval": "1.00-2.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.89",
+        "n_calcul": "6.23"
+       }
+      ]
+     },
+     {
+      "parametru": "Poisson's modulus",
+      "unitate": "",
+      "coloana": "Poisson",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 12.33,
+        "interval": "0.00-1.00",
+        "corelatie": "(A.G.I.)",
+        "valoare": "0.33",
+        "n_calcul": "12.33"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 6.23,
+        "interval": "1.00-2.00",
+        "corelatie": "(A.G.I.)",
+        "valoare": "0.34",
+        "n_calcul": "6.23"
+       }
+      ]
+     },
+     {
+      "parametru": "Dynamic shear modulus",
+      "unitate": "Kg/cm²",
+      "coloana": "G (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 12.33,
+        "interval": "0.00-1.00",
+        "corelatie": "Ohsaki (Sabbie pulite)",
+        "valoare": "689.32",
+        "n_calcul": "12.33"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 6.23,
+        "interval": "1.00-2.00",
+        "corelatie": "Ohsaki (Sabbie pulite)",
+        "valoare": "362.85",
+        "n_calcul": "6.23"
+       }
+      ]
+     },
+     {
+      "parametru": "Shear wave velocity",
+      "unitate": "m/s",
+      "coloana": "Shear wave velocity (m/s)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 12.33,
+        "interval": "0.00-1.00",
+        "corelatie": "Ohta & Goto (1978) Silts",
+        "valoare": "92.42",
+        "n_calcul": "12.33"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 6.23,
+        "interval": "1.00-2.00",
+        "corelatie": "Ohta & Goto (1978) Silts",
+        "valoare": "101.52",
+        "n_calcul": "6.23"
+       }
+      ]
+     },
+     {
+      "parametru": "Coefficient of earth pressure at rest K0=SigmaH/P0",
+      "unitate": "",
+      "coloana": "K0",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 12.33,
+        "interval": "0.00-1.00",
+        "corelatie": "Navfac 1971-1982",
+        "valoare": "2.59",
+        "n_calcul": "12.33"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 6.23,
+        "interval": "1.00-2.00",
+        "corelatie": "Navfac 1971-1982",
+        "valoare": "1.27",
+        "n_calcul": "6.23"
+       }
+      ]
+     },
+     {
+      "parametru": "Qc (CPT Cone resistance)",
+      "unitate": "Kg/cm²",
+      "coloana": "Qc (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 12.33,
+        "interval": "0.00-1.00",
+        "corelatie": "Robertson 1983",
+        "valoare": "24.66",
+        "n_calcul": "12.33"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 6.23,
+        "interval": "1.00-2.00",
+        "corelatie": "Robertson 1983",
+        "valoare": "12.46",
+        "n_calcul": "6.23"
+       }
+      ]
+     }
+    ]
+   },
+   "ordine": 3
+  },
+  {
+   "id": "L8",
+   "eticheta": "Penetrare dinamică super-grea L8",
+   "data": "2026-11-17",
+   "adancime": 2.0,
+   "gps_dms": [
+    "N 44°20'08,7\"",
+    "E 028°05'04,3\""
+   ],
+   "lat": 44.33575,
+   "lon": 28.084528,
+   "stereo70": {
+    "N": 319779.0,
+    "E": 746107.2
+   },
+   "randuri": [
+    {
+     "z": 0.2,
+     "N": 26,
+     "tije": 1,
+     "rpd": 273.19,
+     "qd": 26.79,
+     "nspt": 38.2,
+     "cls": 3
+    },
+    {
+     "z": 0.4,
+     "N": 30,
+     "tije": 1,
+     "rpd": 315.22,
+     "qd": 30.91,
+     "nspt": 44.1,
+     "cls": 4
+    },
+    {
+     "z": 0.6,
+     "N": 14,
+     "tije": 2,
+     "rpd": 135.01,
+     "qd": 13.24,
+     "nspt": 20.6,
+     "cls": 2
+    },
+    {
+     "z": 0.8,
+     "N": 8,
+     "tije": 2,
+     "rpd": 77.15,
+     "qd": 7.57,
+     "nspt": 11.8,
+     "cls": 1
+    },
+    {
+     "z": 1.0,
+     "N": 7,
+     "tije": 2,
+     "rpd": 67.5,
+     "qd": 6.62,
+     "nspt": 10.3,
+     "cls": 1
+    },
+    {
+     "z": 1.2,
+     "N": 8,
+     "tije": 2,
+     "rpd": 77.15,
+     "qd": 7.57,
+     "nspt": 11.8,
+     "cls": 1
+    },
+    {
+     "z": 1.4,
+     "N": 9,
+     "tije": 2,
+     "rpd": 86.79,
+     "qd": 8.51,
+     "nspt": 13.2,
+     "cls": 1
+    },
+    {
+     "z": 1.6,
+     "N": 9,
+     "tije": 3,
+     "rpd": 80.2,
+     "qd": 7.86,
+     "nspt": 13.2,
+     "cls": 1
+    },
+    {
+     "z": 1.8,
+     "N": 9,
+     "tije": 3,
+     "rpd": 80.2,
+     "qd": 7.86,
+     "nspt": 13.2,
+     "cls": 1
+    },
+    {
+     "z": 2.0,
+     "N": 9,
+     "tije": 3,
+     "rpd": 80.2,
+     "qd": 7.86,
+     "nspt": 13.2,
+     "cls": 1
+    }
+   ],
+   "N_min": 7,
+   "N_max": 30,
+   "N_med_sup": 17.0,
+   "N_med_inf": 8.8,
+   "qd_med_sup": 17.0,
+   "qd_med_inf": 7.9,
+   "note": [
+    "La 0,40 m a doua cifră este suprascrisă, s-a citit 30, dar poate fi și 31 sau 34."
+   ],
+   "fisa_foto": {
+    "src": "photos/L8/fisa1.jpg",
+    "thumb": "photos/L8/t_fisa1.jpg",
+    "original": "WhatsApp Image 2026-11-17 at 3.09.23 PM.jpeg",
+    "w": 1050,
+    "h": 1400,
+    "ora": "15:09"
+   },
+   "eticheta_foto": {
+    "src": "photos/L8/eticheta.jpg",
+    "thumb": "photos/L8/t_eticheta.jpg",
+    "original": "WhatsApp Image 2026-11-17 at 3.09.25 PM.jpeg",
+    "w": 900,
+    "h": 1200,
+    "ora": "15:09"
+   },
+   "poze": [
+    {
+     "src": "photos/L8/01.jpg",
+     "thumb": "photos/L8/t_01.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 3.09.24 PM (1).jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "15:09"
+    },
+    {
+     "src": "photos/L8/02.jpg",
+     "thumb": "photos/L8/t_02.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 3.09.24 PM (2).jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "15:09"
+    },
+    {
+     "src": "photos/L8/03.jpg",
+     "thumb": "photos/L8/t_03.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 3.09.24 PM (3).jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "15:09"
+    },
+    {
+     "src": "photos/L8/04.jpg",
+     "thumb": "photos/L8/t_04.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 3.09.24 PM.jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "15:09"
+    }
+   ],
+   "ora_poze": "15:09",
+   "dynamic": {
+    "coezive": [
+     {
+      "parametru": "Undrained cohesion",
+      "unitate": "Kg/cm²",
+      "coloana": "Cu (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 14.85,
+        "interval": "0.00-1.00",
+        "corelatie": "Terzaghi-Peck",
+        "valoare": "1.00",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Terzaghi-Peck",
+        "valoare": "0.84",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Qc (CPT Cone resistance)",
+      "unitate": "Kg/cm²",
+      "coloana": "Qc (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 14.85,
+        "interval": "0.00-1.00",
+        "corelatie": "Robertson (1983)",
+        "valoare": "29.70",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Robertson (1983)",
+        "valoare": "25.02",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Oedometric module",
+      "unitate": "Kg/cm²",
+      "coloana": "Eed (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 14.85,
+        "interval": "0.00-1.00",
+        "corelatie": "Trofimenkov (1974), Mitchell e Gardner",
+        "valoare": "153.25",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Trofimenkov (1974), Mitchell e Gardner",
+        "valoare": "129.39",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Young's modulus",
+      "unitate": "Kg/cm²",
+      "coloana": "Ey (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 14.85,
+        "interval": "0.00-1.00",
+        "corelatie": "Apollonia",
+        "valoare": "148.50",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Apollonia",
+        "valoare": "125.10",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "AGI Classification (Assoc. It. Geolog.)",
+      "unitate": "",
+      "coloana": "Classification",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 14.85,
+        "interval": "0.00-1.00",
+        "corelatie": "A.G.I. (1977)",
+        "valoare": "CONSISTENTE",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "A.G.I. (1977)",
+        "valoare": "CONSISTENTE",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Unit weight",
+      "unitate": "t/m³",
+      "coloana": "Unit weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 14.85,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof",
+        "valoare": "2.06",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof",
+        "valoare": "2.03",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Saturated unit weight",
+      "unitate": "t/m³",
+      "coloana": "Saturated unit weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 14.85,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof",
+        "valoare": "2.27",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof",
+        "valoare": "2.23",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Shear wave velocity",
+      "unitate": "m/s",
+      "coloana": "Shear wave velocity (m/s)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 14.85,
+        "interval": "0.00-1.00",
+        "corelatie": "Ohta & Goto (1978) Low plasticity clays and silty clays",
+        "valoare": "95.44",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Ohta & Goto (1978) Low plasticity clays and silty clays",
+        "valoare": "114.53",
+        "n_calcul": null
+       }
+      ]
+     }
+    ],
+    "necoezive": [
+     {
+      "parametru": "Relative density",
+      "unitate": "%",
+      "coloana": "Relative density (%)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 14.85,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof 1957",
+        "valoare": "90.31",
+        "n_calcul": "14.85"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof 1957",
+        "valoare": "74",
+        "n_calcul": "12.51"
+       }
+      ]
+     },
+     {
+      "parametru": "Shear resistance angle",
+      "unitate": "°",
+      "coloana": "Angle of friction (°)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 14.85,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof (1956)",
+        "valoare": "24.24",
+        "n_calcul": "14.85"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof (1956)",
+        "valoare": "23.57",
+        "n_calcul": "12.51"
+       }
+      ]
+     },
+     {
+      "parametru": "Young's modulus",
+      "unitate": "Kg/cm²",
+      "coloana": "Young's modulus (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 14.85,
+        "interval": "0.00-1.00",
+        "corelatie": "Bowles (1982) Sabbia Media",
+        "valoare": "149.25",
+        "n_calcul": "14.85"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Bowles (1982) Sabbia Media",
+        "valoare": "137.55",
+        "n_calcul": "12.51"
+       }
+      ]
+     },
+     {
+      "parametru": "Oedometric module",
+      "unitate": "Kg/cm²",
+      "coloana": "Oedometric module (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 14.85,
+        "interval": "0.00-1.00",
+        "corelatie": "Begemann 1974 (Ghiaia con sabbia)",
+        "valoare": "57.97",
+        "n_calcul": "14.85"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Begemann 1974 (Ghiaia con sabbia)",
+        "valoare": "53.16",
+        "n_calcul": "12.51"
+       }
+      ]
+     },
+     {
+      "parametru": "AGI Classification (Assoc. It. Geolog.)",
+      "unitate": "Assoc. It. Geolog.",
+      "coloana": "AGI Classification (Assoc. It. Geolog.)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 14.85,
+        "interval": "0.00-1.00",
+        "corelatie": "Classification A.G.I",
+        "valoare": "MODERATELY THICKENED",
+        "n_calcul": "14.85"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Classification A.G.I",
+        "valoare": "MODERATELY THICKENED",
+        "n_calcul": "12.51"
+       }
+      ]
+     },
+     {
+      "parametru": "Unit weight",
+      "unitate": "t/m³",
+      "coloana": "Unit Weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 14.85,
+        "interval": "0.00-1.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.54",
+        "n_calcul": "14.85"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.51",
+        "n_calcul": "12.51"
+       }
+      ]
+     },
+     {
+      "parametru": "Saturated unit weight",
+      "unitate": "t/m³",
+      "coloana": "Saturated weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 14.85,
+        "interval": "0.00-1.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.96",
+        "n_calcul": "14.85"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.94",
+        "n_calcul": "12.51"
+       }
+      ]
+     },
+     {
+      "parametru": "Poisson's modulus",
+      "unitate": "",
+      "coloana": "Poisson",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 14.85,
+        "interval": "0.00-1.00",
+        "corelatie": "(A.G.I.)",
+        "valoare": "0.32",
+        "n_calcul": "14.85"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "(A.G.I.)",
+        "valoare": "0.33",
+        "n_calcul": "12.51"
+       }
+      ]
+     },
+     {
+      "parametru": "Dynamic shear modulus",
+      "unitate": "Kg/cm²",
+      "coloana": "G (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 14.85,
+        "interval": "0.00-1.00",
+        "corelatie": "Ohsaki (Sabbie pulite)",
+        "valoare": "820.99",
+        "n_calcul": "14.85"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Ohsaki (Sabbie pulite)",
+        "valoare": "698.77",
+        "n_calcul": "12.51"
+       }
+      ]
+     },
+     {
+      "parametru": "Shear wave velocity",
+      "unitate": "m/s",
+      "coloana": "Shear wave velocity (m/s)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 14.85,
+        "interval": "0.00-1.00",
+        "corelatie": "Ohta & Goto (1978) Silts",
+        "valoare": "95.44",
+        "n_calcul": "14.85"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Ohta & Goto (1978) Silts",
+        "valoare": "114.53",
+        "n_calcul": "12.51"
+       }
+      ]
+     },
+     {
+      "parametru": "Coefficient of earth pressure at rest K0=SigmaH/P0",
+      "unitate": "",
+      "coloana": "K0",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 14.85,
+        "interval": "0.00-1.00",
+        "corelatie": "Navfac 1971-1982",
+        "valoare": "3.09",
+        "n_calcul": "14.85"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Navfac 1971-1982",
+        "valoare": "2.63",
+        "n_calcul": "12.51"
+       }
+      ]
+     },
+     {
+      "parametru": "Qc (CPT Cone resistance)",
+      "unitate": "Kg/cm²",
+      "coloana": "Qc (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 14.85,
+        "interval": "0.00-1.00",
+        "corelatie": "Robertson 1983",
+        "valoare": "29.70",
+        "n_calcul": "14.85"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 12.51,
+        "interval": "1.00-2.00",
+        "corelatie": "Robertson 1983",
+        "valoare": "25.02",
+        "n_calcul": "12.51"
+       }
+      ]
+     }
+    ]
+   },
+   "ordine": 4
+  },
+  {
+   "id": "L9",
+   "eticheta": "Penetrare dinamică super-grea L9",
+   "data": "2026-11-17",
+   "adancime": 2.0,
+   "gps_dms": [
+    "N 44°20'09,3\"",
+    "E 028°05'05,5\""
+   ],
+   "lat": 44.335917,
+   "lon": 28.084861,
+   "stereo70": {
+    "N": 319798.5,
+    "E": 746133.1
+   },
+   "randuri": [
+    {
+     "z": 0.2,
+     "N": 14,
+     "tije": 1,
+     "rpd": 147.1,
+     "qd": 14.43,
+     "nspt": 20.6,
+     "cls": 2
+    },
+    {
+     "z": 0.4,
+     "N": 20,
+     "tije": 1,
+     "rpd": 210.15,
+     "qd": 20.61,
+     "nspt": 29.4,
+     "cls": 3
+    },
+    {
+     "z": 0.6,
+     "N": 16,
+     "tije": 2,
+     "rpd": 154.3,
+     "qd": 15.13,
+     "nspt": 23.5,
+     "cls": 2
+    },
+    {
+     "z": 0.8,
+     "N": 15,
+     "tije": 2,
+     "rpd": 144.65,
+     "qd": 14.19,
+     "nspt": 22.1,
+     "cls": 2
+    },
+    {
+     "z": 1.0,
+     "N": 11,
+     "tije": 2,
+     "rpd": 106.08,
+     "qd": 10.4,
+     "nspt": 16.2,
+     "cls": 2
+    },
+    {
+     "z": 1.2,
+     "N": 16,
+     "tije": 2,
+     "rpd": 154.3,
+     "qd": 15.13,
+     "nspt": 23.5,
+     "cls": 2
+    },
+    {
+     "z": 1.4,
+     "N": 8,
+     "tije": 2,
+     "rpd": 77.15,
+     "qd": 7.57,
+     "nspt": 11.8,
+     "cls": 1
+    },
+    {
+     "z": 1.6,
+     "N": 5,
+     "tije": 3,
+     "rpd": 44.55,
+     "qd": 4.37,
+     "nspt": 7.3,
+     "cls": 1
+    },
+    {
+     "z": 1.8,
+     "N": 6,
+     "tije": 3,
+     "rpd": 53.47,
+     "qd": 5.24,
+     "nspt": 8.8,
+     "cls": 1
+    },
+    {
+     "z": 2.0,
+     "N": 7,
+     "tije": 3,
+     "rpd": 62.38,
+     "qd": 6.12,
+     "nspt": 10.3,
+     "cls": 1
+    }
+   ],
+   "N_min": 5,
+   "N_max": 20,
+   "N_med_sup": 15.2,
+   "N_med_inf": 8.4,
+   "qd_med_sup": 15.0,
+   "qd_med_inf": 7.7,
+   "note": [],
+   "fisa_foto": {
+    "src": "photos/L9/fisa1.jpg",
+    "thumb": "photos/L9/t_fisa1.jpg",
+    "original": "WhatsApp Image 2026-11-17 at 3.42.30 PM.jpeg",
+    "w": 1050,
+    "h": 1400,
+    "ora": "15:42"
+   },
+   "eticheta_foto": {
+    "src": "photos/L9/eticheta.jpg",
+    "thumb": "photos/L9/t_eticheta.jpg",
+    "original": "WhatsApp Image 2026-11-17 at 3.42.33 PM.jpeg",
+    "w": 900,
+    "h": 1200,
+    "ora": "15:42"
+   },
+   "poze": [
+    {
+     "src": "photos/L9/01.jpg",
+     "thumb": "photos/L9/t_01.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 3.42.31 PM (1).jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "15:42"
+    },
+    {
+     "src": "photos/L9/02.jpg",
+     "thumb": "photos/L9/t_02.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 3.42.31 PM.jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "15:42"
+    },
+    {
+     "src": "photos/L9/03.jpg",
+     "thumb": "photos/L9/t_03.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 3.42.32 PM (1).jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "15:42"
+    },
+    {
+     "src": "photos/L9/04.jpg",
+     "thumb": "photos/L9/t_04.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 3.42.32 PM.jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "15:42"
+    }
+   ],
+   "ora_poze": "15:42",
+   "dynamic": {
+    "coezive": [
+     {
+      "parametru": "Undrained cohesion",
+      "unitate": "Kg/cm²",
+      "coloana": "Cu (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 19.18,
+        "interval": "0.00-1.00",
+        "corelatie": "Terzaghi-Peck",
+        "valoare": "1.30",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 8.1,
+        "interval": "1.00-2.00",
+        "corelatie": "Terzaghi-Peck",
+        "valoare": "0.55",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Qc (CPT Cone resistance)",
+      "unitate": "Kg/cm²",
+      "coloana": "Qc (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 19.18,
+        "interval": "0.00-1.00",
+        "corelatie": "Robertson (1983)",
+        "valoare": "38.36",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 8.1,
+        "interval": "1.00-2.00",
+        "corelatie": "Robertson (1983)",
+        "valoare": "16.20",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Oedometric module",
+      "unitate": "Kg/cm²",
+      "coloana": "Eed (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 19.18,
+        "interval": "0.00-1.00",
+        "corelatie": "Trofimenkov (1974), Mitchell e Gardner",
+        "valoare": "197.42",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 8.1,
+        "interval": "1.00-2.00",
+        "corelatie": "Trofimenkov (1974), Mitchell e Gardner",
+        "valoare": "84.41",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Young's modulus",
+      "unitate": "Kg/cm²",
+      "coloana": "Ey (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 19.18,
+        "interval": "0.00-1.00",
+        "corelatie": "Apollonia",
+        "valoare": "191.80",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 8.1,
+        "interval": "1.00-2.00",
+        "corelatie": "Apollonia",
+        "valoare": "81.00",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "AGI Classification (Assoc. It. Geolog.)",
+      "unitate": "",
+      "coloana": "Classification",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 19.18,
+        "interval": "0.00-1.00",
+        "corelatie": "A.G.I. (1977)",
+        "valoare": "MOLTO CONSISTENTE",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 8.1,
+        "interval": "1.00-2.00",
+        "corelatie": "A.G.I. (1977)",
+        "valoare": "CONSISTENTE",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Unit weight",
+      "unitate": "t/m³",
+      "coloana": "Unit weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 19.18,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof",
+        "valoare": "2.10",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 8.1,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof",
+        "valoare": "1.90",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Saturated unit weight",
+      "unitate": "t/m³",
+      "coloana": "Saturated unit weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 19.18,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof",
+        "valoare": "2.31",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 8.1,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof",
+        "valoare": "1.91",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Shear wave velocity",
+      "unitate": "m/s",
+      "coloana": "Shear wave velocity (m/s)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 19.18,
+        "interval": "0.00-1.00",
+        "corelatie": "Ohta & Goto (1978) Low plasticity clays and silty clays",
+        "valoare": "99.76",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 8.1,
+        "interval": "1.00-2.00",
+        "corelatie": "Ohta & Goto (1978) Low plasticity clays and silty clays",
+        "valoare": "106.24",
+        "n_calcul": null
+       }
+      ]
+     }
+    ],
+    "necoezive": [
+     {
+      "parametru": "Relative density",
+      "unitate": "%",
+      "coloana": "Relative density (%)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 19.18,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof 1957",
+        "valoare": "100",
+        "n_calcul": "19.18"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 8.1,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof 1957",
+        "valoare": "59.62",
+        "n_calcul": "8.10"
+       }
+      ]
+     },
+     {
+      "parametru": "Shear resistance angle",
+      "unitate": "°",
+      "coloana": "Angle of friction (°)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 19.18,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof (1956)",
+        "valoare": "25.48",
+        "n_calcul": "19.18"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 8.1,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof (1956)",
+        "valoare": "22.31",
+        "n_calcul": "8.10"
+       }
+      ]
+     },
+     {
+      "parametru": "Young's modulus",
+      "unitate": "Kg/cm²",
+      "coloana": "Young's modulus (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 19.18,
+        "interval": "0.00-1.00",
+        "corelatie": "Bowles (1982) Sabbia Media",
+        "valoare": "170.90",
+        "n_calcul": "19.18"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 8.1,
+        "interval": "1.00-2.00",
+        "corelatie": "Bowles (1982) Sabbia Media",
+        "valoare": "---",
+        "n_calcul": "8.10"
+       }
+      ]
+     },
+     {
+      "parametru": "Oedometric module",
+      "unitate": "Kg/cm²",
+      "coloana": "Oedometric module (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 19.18,
+        "interval": "0.00-1.00",
+        "corelatie": "Begemann 1974 (Ghiaia con sabbia)",
+        "valoare": "66.86",
+        "n_calcul": "19.18"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 8.1,
+        "interval": "1.00-2.00",
+        "corelatie": "Begemann 1974 (Ghiaia con sabbia)",
+        "valoare": "44.10",
+        "n_calcul": "8.10"
+       }
+      ]
+     },
+     {
+      "parametru": "AGI Classification (Assoc. It. Geolog.)",
+      "unitate": "Assoc. It. Geolog.",
+      "coloana": "AGI Classification (Assoc. It. Geolog.)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 19.18,
+        "interval": "0.00-1.00",
+        "corelatie": "Classification A.G.I",
+        "valoare": "MODERATELY THICKENED",
+        "n_calcul": "19.18"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 8.1,
+        "interval": "1.00-2.00",
+        "corelatie": "Classification A.G.I",
+        "valoare": "SLIGHTLY THICKENED",
+        "n_calcul": "8.10"
+       }
+      ]
+     },
+     {
+      "parametru": "Unit weight",
+      "unitate": "t/m³",
+      "coloana": "Unit Weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 19.18,
+        "interval": "0.00-1.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.59",
+        "n_calcul": "19.18"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 8.1,
+        "interval": "1.00-2.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.45",
+        "n_calcul": "8.10"
+       }
+      ]
+     },
+     {
+      "parametru": "Saturated unit weight",
+      "unitate": "t/m³",
+      "coloana": "Saturated weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 19.18,
+        "interval": "0.00-1.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.99",
+        "n_calcul": "19.18"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 8.1,
+        "interval": "1.00-2.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.90",
+        "n_calcul": "8.10"
+       }
+      ]
+     },
+     {
+      "parametru": "Poisson's modulus",
+      "unitate": "",
+      "coloana": "Poisson",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 19.18,
+        "interval": "0.00-1.00",
+        "corelatie": "(A.G.I.)",
+        "valoare": "0.32",
+        "n_calcul": "19.18"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 8.1,
+        "interval": "1.00-2.00",
+        "corelatie": "(A.G.I.)",
+        "valoare": "0.34",
+        "n_calcul": "8.10"
+       }
+      ]
+     },
+     {
+      "parametru": "Dynamic shear modulus",
+      "unitate": "Kg/cm²",
+      "coloana": "G (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 19.18,
+        "interval": "0.00-1.00",
+        "corelatie": "Ohsaki (Sabbie pulite)",
+        "valoare": "1044.22",
+        "n_calcul": "19.18"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 8.1,
+        "interval": "1.00-2.00",
+        "corelatie": "Ohsaki (Sabbie pulite)",
+        "valoare": "464.40",
+        "n_calcul": "8.10"
+       }
+      ]
+     },
+     {
+      "parametru": "Shear wave velocity",
+      "unitate": "m/s",
+      "coloana": "Shear wave velocity (m/s)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 19.18,
+        "interval": "0.00-1.00",
+        "corelatie": "Ohta & Goto (1978) Silts",
+        "valoare": "99.76",
+        "n_calcul": "19.18"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 8.1,
+        "interval": "1.00-2.00",
+        "corelatie": "Ohta & Goto (1978) Silts",
+        "valoare": "106.24",
+        "n_calcul": "8.10"
+       }
+      ]
+     },
+     {
+      "parametru": "Coefficient of earth pressure at rest K0=SigmaH/P0",
+      "unitate": "",
+      "coloana": "K0",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 19.18,
+        "interval": "0.00-1.00",
+        "corelatie": "Navfac 1971-1982",
+        "valoare": "3.90",
+        "n_calcul": "19.18"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 8.1,
+        "interval": "1.00-2.00",
+        "corelatie": "Navfac 1971-1982",
+        "valoare": "1.69",
+        "n_calcul": "8.10"
+       }
+      ]
+     },
+     {
+      "parametru": "Qc (CPT Cone resistance)",
+      "unitate": "Kg/cm²",
+      "coloana": "Qc (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 19.18,
+        "interval": "0.00-1.00",
+        "corelatie": "Robertson 1983",
+        "valoare": "38.36",
+        "n_calcul": "19.18"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 8.1,
+        "interval": "1.00-2.00",
+        "corelatie": "Robertson 1983",
+        "valoare": "16.20",
+        "n_calcul": "8.10"
+       }
+      ]
+     }
+    ]
+   },
+   "ordine": 5
+  },
+  {
+   "id": "L11",
+   "eticheta": "Penetrare dinamică super-grea L11",
+   "data": "2026-11-17",
+   "adancime": 2.0,
+   "gps_dms": [
+    "N 44°20'08,2\"",
+    "E 028°05'04,9\""
+   ],
+   "lat": 44.335611,
+   "lon": 28.084694,
+   "stereo70": {
+    "N": 319764.1,
+    "E": 746121.1
+   },
+   "randuri": [
+    {
+     "z": 0.2,
+     "N": 9,
+     "tije": 1,
+     "rpd": 94.57,
+     "qd": 9.27,
+     "nspt": 13.2,
+     "cls": 1
+    },
+    {
+     "z": 0.4,
+     "N": 24,
+     "tije": 1,
+     "rpd": 252.18,
+     "qd": 24.73,
+     "nspt": 35.3,
+     "cls": 3
+    },
+    {
+     "z": 0.6,
+     "N": 17,
+     "tije": 2,
+     "rpd": 163.94,
+     "qd": 16.08,
+     "nspt": 25.0,
+     "cls": 2
+    },
+    {
+     "z": 0.8,
+     "N": 18,
+     "tije": 2,
+     "rpd": 173.58,
+     "qd": 17.02,
+     "nspt": 26.5,
+     "cls": 2
+    },
+    {
+     "z": 1.0,
+     "N": 9,
+     "tije": 2,
+     "rpd": 86.79,
+     "qd": 8.51,
+     "nspt": 13.2,
+     "cls": 1
+    },
+    {
+     "z": 1.2,
+     "N": 12,
+     "tije": 2,
+     "rpd": 115.72,
+     "qd": 11.35,
+     "nspt": 17.6,
+     "cls": 2
+    },
+    {
+     "z": 1.4,
+     "N": 9,
+     "tije": 2,
+     "rpd": 86.79,
+     "qd": 8.51,
+     "nspt": 13.2,
+     "cls": 1
+    },
+    {
+     "z": 1.6,
+     "N": 10,
+     "tije": 3,
+     "rpd": 89.11,
+     "qd": 8.74,
+     "nspt": 14.7,
+     "cls": 2
+    },
+    {
+     "z": 1.8,
+     "N": 11,
+     "tije": 3,
+     "rpd": 98.02,
+     "qd": 9.61,
+     "nspt": 16.2,
+     "cls": 2
+    },
+    {
+     "z": 2.0,
+     "N": 9,
+     "tije": 3,
+     "rpd": 80.2,
+     "qd": 7.86,
+     "nspt": 13.2,
+     "cls": 1
+    }
+   ],
+   "N_min": 9,
+   "N_max": 24,
+   "N_med_sup": 15.4,
+   "N_med_inf": 10.2,
+   "qd_med_sup": 15.1,
+   "qd_med_inf": 9.2,
+   "note": [
+    "Coordonate: în fișă scrie N 44°20'80,2\" (imposibil), iar eticheta din fotografie indică 08,2\", valoare reținută."
+   ],
+   "fisa_foto": {
+    "src": "photos/L11/fisa1.jpg",
+    "thumb": "photos/L11/t_fisa1.jpg",
+    "original": "WhatsApp Image 2026-11-17 at 4.42.45 PM (1).jpeg",
+    "w": 1050,
+    "h": 1400,
+    "ora": "16:42"
+   },
+   "eticheta_foto": {
+    "src": "photos/L11/eticheta.jpg",
+    "thumb": "photos/L11/t_eticheta.jpg",
+    "original": "WhatsApp Image 2026-11-17 at 4.42.45 PM (2).jpeg",
+    "w": 900,
+    "h": 1200,
+    "ora": "16:42"
+   },
+   "poze": [
+    {
+     "src": "photos/L11/01.jpg",
+     "thumb": "photos/L11/t_01.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 4.42.44 PM (1).jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "16:42"
+    },
+    {
+     "src": "photos/L11/02.jpg",
+     "thumb": "photos/L11/t_02.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 4.42.44 PM.jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "16:42"
+    },
+    {
+     "src": "photos/L11/03.jpg",
+     "thumb": "photos/L11/t_03.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 4.42.45 PM.jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "16:42"
+    }
+   ],
+   "ora_poze": "16:42",
+   "dynamic": {
+    "coezive": [
+     {
+      "parametru": "Undrained cohesion",
+      "unitate": "Kg/cm²",
+      "coloana": "Cu (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 16.42,
+        "interval": "0.00-1.00",
+        "corelatie": "Terzaghi-Peck",
+        "valoare": "1.11",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.73,
+        "interval": "1.00-2.00",
+        "corelatie": "Terzaghi-Peck",
+        "valoare": "0.93",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Qc (CPT Cone resistance)",
+      "unitate": "Kg/cm²",
+      "coloana": "Qc (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 16.42,
+        "interval": "0.00-1.00",
+        "corelatie": "Robertson (1983)",
+        "valoare": "32.84",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.73,
+        "interval": "1.00-2.00",
+        "corelatie": "Robertson (1983)",
+        "valoare": "27.46",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Oedometric module",
+      "unitate": "Kg/cm²",
+      "coloana": "Eed (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 16.42,
+        "interval": "0.00-1.00",
+        "corelatie": "Trofimenkov (1974), Mitchell e Gardner",
+        "valoare": "169.27",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.73,
+        "interval": "1.00-2.00",
+        "corelatie": "Trofimenkov (1974), Mitchell e Gardner",
+        "valoare": "141.83",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Young's modulus",
+      "unitate": "Kg/cm²",
+      "coloana": "Ey (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 16.42,
+        "interval": "0.00-1.00",
+        "corelatie": "Apollonia",
+        "valoare": "164.20",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.73,
+        "interval": "1.00-2.00",
+        "corelatie": "Apollonia",
+        "valoare": "137.30",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "AGI Classification (Assoc. It. Geolog.)",
+      "unitate": "",
+      "coloana": "Classification",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 16.42,
+        "interval": "0.00-1.00",
+        "corelatie": "A.G.I. (1977)",
+        "valoare": "MOLTO CONSISTENTE",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.73,
+        "interval": "1.00-2.00",
+        "corelatie": "A.G.I. (1977)",
+        "valoare": "CONSISTENTE",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Unit weight",
+      "unitate": "t/m³",
+      "coloana": "Unit weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 16.42,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof",
+        "valoare": "2.08",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.73,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof",
+        "valoare": "2.05",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Saturated unit weight",
+      "unitate": "t/m³",
+      "coloana": "Saturated unit weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 16.42,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof",
+        "valoare": "2.29",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.73,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof",
+        "valoare": "2.25",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Shear wave velocity",
+      "unitate": "m/s",
+      "coloana": "Shear wave velocity (m/s)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 16.42,
+        "interval": "0.00-1.00",
+        "corelatie": "Ohta & Goto (1978) Low plasticity clays and silty clays",
+        "valoare": "97.11",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.73,
+        "interval": "1.00-2.00",
+        "corelatie": "Ohta & Goto (1978) Low plasticity clays and silty clays",
+        "valoare": "116.39",
+        "n_calcul": null
+       }
+      ]
+     }
+    ],
+    "necoezive": [
+     {
+      "parametru": "Relative density",
+      "unitate": "%",
+      "coloana": "Relative density (%)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 16.42,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof 1957",
+        "valoare": "94.9",
+        "n_calcul": "16.42"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.73,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof 1957",
+        "valoare": "77.41",
+        "n_calcul": "13.73"
+       }
+      ]
+     },
+     {
+      "parametru": "Shear resistance angle",
+      "unitate": "°",
+      "coloana": "Angle of friction (°)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 16.42,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof (1956)",
+        "valoare": "24.69",
+        "n_calcul": "16.42"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.73,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof (1956)",
+        "valoare": "23.92",
+        "n_calcul": "13.73"
+       }
+      ]
+     },
+     {
+      "parametru": "Young's modulus",
+      "unitate": "Kg/cm²",
+      "coloana": "Young's modulus (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 16.42,
+        "interval": "0.00-1.00",
+        "corelatie": "Bowles (1982) Sabbia Media",
+        "valoare": "157.10",
+        "n_calcul": "16.42"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.73,
+        "interval": "1.00-2.00",
+        "corelatie": "Bowles (1982) Sabbia Media",
+        "valoare": "143.65",
+        "n_calcul": "13.73"
+       }
+      ]
+     },
+     {
+      "parametru": "Oedometric module",
+      "unitate": "Kg/cm²",
+      "coloana": "Oedometric module (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 16.42,
+        "interval": "0.00-1.00",
+        "corelatie": "Begemann 1974 (Ghiaia con sabbia)",
+        "valoare": "61.19",
+        "n_calcul": "16.42"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.73,
+        "interval": "1.00-2.00",
+        "corelatie": "Begemann 1974 (Ghiaia con sabbia)",
+        "valoare": "55.67",
+        "n_calcul": "13.73"
+       }
+      ]
+     },
+     {
+      "parametru": "AGI Classification (Assoc. It. Geolog.)",
+      "unitate": "Assoc. It. Geolog.",
+      "coloana": "AGI Classification (Assoc. It. Geolog.)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 16.42,
+        "interval": "0.00-1.00",
+        "corelatie": "Classification A.G.I",
+        "valoare": "MODERATELY THICKENED",
+        "n_calcul": "16.42"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.73,
+        "interval": "1.00-2.00",
+        "corelatie": "Classification A.G.I",
+        "valoare": "MODERATELY THICKENED",
+        "n_calcul": "13.73"
+       }
+      ]
+     },
+     {
+      "parametru": "Unit weight",
+      "unitate": "t/m³",
+      "coloana": "Unit Weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 16.42,
+        "interval": "0.00-1.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.56",
+        "n_calcul": "16.42"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.73,
+        "interval": "1.00-2.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.52",
+        "n_calcul": "13.73"
+       }
+      ]
+     },
+     {
+      "parametru": "Saturated unit weight",
+      "unitate": "t/m³",
+      "coloana": "Saturated weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 16.42,
+        "interval": "0.00-1.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.97",
+        "n_calcul": "16.42"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.73,
+        "interval": "1.00-2.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.95",
+        "n_calcul": "13.73"
+       }
+      ]
+     },
+     {
+      "parametru": "Poisson's modulus",
+      "unitate": "",
+      "coloana": "Poisson",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 16.42,
+        "interval": "0.00-1.00",
+        "corelatie": "(A.G.I.)",
+        "valoare": "0.32",
+        "n_calcul": "16.42"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.73,
+        "interval": "1.00-2.00",
+        "corelatie": "(A.G.I.)",
+        "valoare": "0.33",
+        "n_calcul": "13.73"
+       }
+      ]
+     },
+     {
+      "parametru": "Dynamic shear modulus",
+      "unitate": "Kg/cm²",
+      "coloana": "G (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 16.42,
+        "interval": "0.00-1.00",
+        "corelatie": "Ohsaki (Sabbie pulite)",
+        "valoare": "902.33",
+        "n_calcul": "16.42"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.73,
+        "interval": "1.00-2.00",
+        "corelatie": "Ohsaki (Sabbie pulite)",
+        "valoare": "762.65",
+        "n_calcul": "13.73"
+       }
+      ]
+     },
+     {
+      "parametru": "Shear wave velocity",
+      "unitate": "m/s",
+      "coloana": "Shear wave velocity (m/s)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 16.42,
+        "interval": "0.00-1.00",
+        "corelatie": "Ohta & Goto (1978) Silts",
+        "valoare": "97.11",
+        "n_calcul": "16.42"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.73,
+        "interval": "1.00-2.00",
+        "corelatie": "Ohta & Goto (1978) Silts",
+        "valoare": "116.39",
+        "n_calcul": "13.73"
+       }
+      ]
+     },
+     {
+      "parametru": "Coefficient of earth pressure at rest K0=SigmaH/P0",
+      "unitate": "",
+      "coloana": "K0",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 16.42,
+        "interval": "0.00-1.00",
+        "corelatie": "Navfac 1971-1982",
+        "valoare": "3.40",
+        "n_calcul": "16.42"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.73,
+        "interval": "1.00-2.00",
+        "corelatie": "Navfac 1971-1982",
+        "valoare": "2.87",
+        "n_calcul": "13.73"
+       }
+      ]
+     },
+     {
+      "parametru": "Qc (CPT Cone resistance)",
+      "unitate": "Kg/cm²",
+      "coloana": "Qc (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 16.42,
+        "interval": "0.00-1.00",
+        "corelatie": "Robertson 1983",
+        "valoare": "32.84",
+        "n_calcul": "16.42"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 13.73,
+        "interval": "1.00-2.00",
+        "corelatie": "Robertson 1983",
+        "valoare": "27.46",
+        "n_calcul": "13.73"
+       }
+      ]
+     }
+    ]
+   },
+   "ordine": 6
+  },
+  {
+   "id": "L12",
+   "eticheta": "Penetrare dinamică super-grea L12",
+   "data": "2026-11-17",
+   "adancime": 2.0,
+   "gps_dms": [
+    "N 44°20'08,8\"",
+    "E 028°05'05,8\""
+   ],
+   "lat": 44.335778,
+   "lon": 28.084944,
+   "stereo70": {
+    "N": 319783.3,
+    "E": 746140.3
+   },
+   "randuri": [
+    {
+     "z": 0.2,
+     "N": 25,
+     "tije": 1,
+     "rpd": 262.68,
+     "qd": 25.76,
+     "nspt": 36.8,
+     "cls": 3
+    },
+    {
+     "z": 0.4,
+     "N": 21,
+     "tije": 1,
+     "rpd": 220.65,
+     "qd": 21.64,
+     "nspt": 30.9,
+     "cls": 3
+    },
+    {
+     "z": 0.6,
+     "N": 11,
+     "tije": 2,
+     "rpd": 106.08,
+     "qd": 10.4,
+     "nspt": 16.2,
+     "cls": 2
+    },
+    {
+     "z": 0.8,
+     "N": 7,
+     "tije": 2,
+     "rpd": 67.5,
+     "qd": 6.62,
+     "nspt": 10.3,
+     "cls": 1
+    },
+    {
+     "z": 1.0,
+     "N": 8,
+     "tije": 2,
+     "rpd": 77.15,
+     "qd": 7.57,
+     "nspt": 11.8,
+     "cls": 1
+    },
+    {
+     "z": 1.2,
+     "N": 10,
+     "tije": 2,
+     "rpd": 96.43,
+     "qd": 9.46,
+     "nspt": 14.7,
+     "cls": 2
+    },
+    {
+     "z": 1.4,
+     "N": 10,
+     "tije": 2,
+     "rpd": 96.43,
+     "qd": 9.46,
+     "nspt": 14.7,
+     "cls": 2
+    },
+    {
+     "z": 1.6,
+     "N": 9,
+     "tije": 3,
+     "rpd": 80.2,
+     "qd": 7.86,
+     "nspt": 13.2,
+     "cls": 1
+    },
+    {
+     "z": 1.8,
+     "N": 10,
+     "tije": 3,
+     "rpd": 89.11,
+     "qd": 8.74,
+     "nspt": 14.7,
+     "cls": 2
+    },
+    {
+     "z": 2.0,
+     "N": 11,
+     "tije": 3,
+     "rpd": 98.02,
+     "qd": 9.61,
+     "nspt": 16.2,
+     "cls": 2
+    }
+   ],
+   "N_min": 7,
+   "N_max": 25,
+   "N_med_sup": 14.4,
+   "N_med_inf": 10.0,
+   "qd_med_sup": 14.4,
+   "qd_med_inf": 9.0,
+   "note": [],
+   "fisa_foto": {
+    "src": "photos/L12/fisa1.jpg",
+    "thumb": "photos/L12/t_fisa1.jpg",
+    "original": "WhatsApp Image 2026-11-17 at 4.43.12 PM.jpeg",
+    "w": 1050,
+    "h": 1400,
+    "ora": "16:43"
+   },
+   "eticheta_foto": {
+    "src": "photos/L12/eticheta.jpg",
+    "thumb": "photos/L12/t_eticheta.jpg",
+    "original": "WhatsApp Image 2026-11-17 at 4.43.13 PM (2).jpeg",
+    "w": 900,
+    "h": 1200,
+    "ora": "16:43"
+   },
+   "poze": [
+    {
+     "src": "photos/L12/01.jpg",
+     "thumb": "photos/L12/t_01.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 4.43.12 PM (1).jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "16:43"
+    },
+    {
+     "src": "photos/L12/02.jpg",
+     "thumb": "photos/L12/t_02.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 4.43.13 PM (1).jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "16:43"
+    },
+    {
+     "src": "photos/L12/03.jpg",
+     "thumb": "photos/L12/t_03.jpg",
+     "original": "WhatsApp Image 2026-11-17 at 4.43.13 PM.jpeg",
+     "w": 900,
+     "h": 1200,
+     "ora": "16:43"
+    }
+   ],
+   "ora_poze": "16:43",
+   "dynamic": {
+    "coezive": [
+     {
+      "parametru": "Undrained cohesion",
+      "unitate": "Kg/cm²",
+      "coloana": "Cu (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.32,
+        "interval": "0.00-1.00",
+        "corelatie": "Terzaghi-Peck",
+        "valoare": "0.90",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 14.01,
+        "interval": "1.00-2.00",
+        "corelatie": "Terzaghi-Peck",
+        "valoare": "0.95",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Qc (CPT Cone resistance)",
+      "unitate": "Kg/cm²",
+      "coloana": "Qc (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.32,
+        "interval": "0.00-1.00",
+        "corelatie": "Robertson (1983)",
+        "valoare": "26.64",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 14.01,
+        "interval": "1.00-2.00",
+        "corelatie": "Robertson (1983)",
+        "valoare": "28.02",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Oedometric module",
+      "unitate": "Kg/cm²",
+      "coloana": "Eed (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.32,
+        "interval": "0.00-1.00",
+        "corelatie": "Trofimenkov (1974), Mitchell e Gardner",
+        "valoare": "137.65",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 14.01,
+        "interval": "1.00-2.00",
+        "corelatie": "Trofimenkov (1974), Mitchell e Gardner",
+        "valoare": "144.69",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Young's modulus",
+      "unitate": "Kg/cm²",
+      "coloana": "Ey (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.32,
+        "interval": "0.00-1.00",
+        "corelatie": "Apollonia",
+        "valoare": "133.20",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 14.01,
+        "interval": "1.00-2.00",
+        "corelatie": "Apollonia",
+        "valoare": "140.10",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "AGI Classification (Assoc. It. Geolog.)",
+      "unitate": "",
+      "coloana": "Classification",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.32,
+        "interval": "0.00-1.00",
+        "corelatie": "A.G.I. (1977)",
+        "valoare": "CONSISTENTE",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 14.01,
+        "interval": "1.00-2.00",
+        "corelatie": "A.G.I. (1977)",
+        "valoare": "CONSISTENTE",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Unit weight",
+      "unitate": "t/m³",
+      "coloana": "Unit weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.32,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof",
+        "valoare": "2.04",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 14.01,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof",
+        "valoare": "2.05",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Saturated unit weight",
+      "unitate": "t/m³",
+      "coloana": "Saturated unit weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.32,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof",
+        "valoare": "2.24",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 14.01,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof",
+        "valoare": "2.25",
+        "n_calcul": null
+       }
+      ]
+     },
+     {
+      "parametru": "Shear wave velocity",
+      "unitate": "m/s",
+      "coloana": "Shear wave velocity (m/s)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.32,
+        "interval": "0.00-1.00",
+        "corelatie": "Ohta & Goto (1978) Low plasticity clays and silty clays",
+        "valoare": "93.66",
+        "n_calcul": null
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 14.01,
+        "interval": "1.00-2.00",
+        "corelatie": "Ohta & Goto (1978) Low plasticity clays and silty clays",
+        "valoare": "116.8",
+        "n_calcul": null
+       }
+      ]
+     }
+    ],
+    "necoezive": [
+     {
+      "parametru": "Relative density",
+      "unitate": "%",
+      "coloana": "Relative density (%)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.32,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof 1957",
+        "valoare": "85.58",
+        "n_calcul": "13.32"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 14.01,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof 1957",
+        "valoare": "78.35",
+        "n_calcul": "14.01"
+       }
+      ]
+     },
+     {
+      "parametru": "Shear resistance angle",
+      "unitate": "°",
+      "coloana": "Angle of friction (°)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.32,
+        "interval": "0.00-1.00",
+        "corelatie": "Meyerhof (1956)",
+        "valoare": "23.81",
+        "n_calcul": "13.32"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 14.01,
+        "interval": "1.00-2.00",
+        "corelatie": "Meyerhof (1956)",
+        "valoare": "24",
+        "n_calcul": "14.01"
+       }
+      ]
+     },
+     {
+      "parametru": "Young's modulus",
+      "unitate": "Kg/cm²",
+      "coloana": "Young's modulus (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.32,
+        "interval": "0.00-1.00",
+        "corelatie": "Bowles (1982) Sabbia Media",
+        "valoare": "141.60",
+        "n_calcul": "13.32"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 14.01,
+        "interval": "1.00-2.00",
+        "corelatie": "Bowles (1982) Sabbia Media",
+        "valoare": "145.05",
+        "n_calcul": "14.01"
+       }
+      ]
+     },
+     {
+      "parametru": "Oedometric module",
+      "unitate": "Kg/cm²",
+      "coloana": "Oedometric module (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.32,
+        "interval": "0.00-1.00",
+        "corelatie": "Begemann 1974 (Ghiaia con sabbia)",
+        "valoare": "54.82",
+        "n_calcul": "13.32"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 14.01,
+        "interval": "1.00-2.00",
+        "corelatie": "Begemann 1974 (Ghiaia con sabbia)",
+        "valoare": "56.24",
+        "n_calcul": "14.01"
+       }
+      ]
+     },
+     {
+      "parametru": "AGI Classification (Assoc. It. Geolog.)",
+      "unitate": "Assoc. It. Geolog.",
+      "coloana": "AGI Classification (Assoc. It. Geolog.)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.32,
+        "interval": "0.00-1.00",
+        "corelatie": "Classification A.G.I",
+        "valoare": "MODERATELY THICKENED",
+        "n_calcul": "13.32"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 14.01,
+        "interval": "1.00-2.00",
+        "corelatie": "Classification A.G.I",
+        "valoare": "MODERATELY THICKENED",
+        "n_calcul": "14.01"
+       }
+      ]
+     },
+     {
+      "parametru": "Unit weight",
+      "unitate": "t/m³",
+      "coloana": "Unit Weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.32,
+        "interval": "0.00-1.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.52",
+        "n_calcul": "13.32"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 14.01,
+        "interval": "1.00-2.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.53",
+        "n_calcul": "14.01"
+       }
+      ]
+     },
+     {
+      "parametru": "Saturated unit weight",
+      "unitate": "t/m³",
+      "coloana": "Saturated weight (t/m³)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.32,
+        "interval": "0.00-1.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.95",
+        "n_calcul": "13.32"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 14.01,
+        "interval": "1.00-2.00",
+        "corelatie": "Terzaghi-Peck 1948",
+        "valoare": "1.95",
+        "n_calcul": "14.01"
+       }
+      ]
+     },
+     {
+      "parametru": "Poisson's modulus",
+      "unitate": "",
+      "coloana": "Poisson",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.32,
+        "interval": "0.00-1.00",
+        "corelatie": "(A.G.I.)",
+        "valoare": "0.33",
+        "n_calcul": "13.32"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 14.01,
+        "interval": "1.00-2.00",
+        "corelatie": "(A.G.I.)",
+        "valoare": "0.33",
+        "n_calcul": "14.01"
+       }
+      ]
+     },
+     {
+      "parametru": "Dynamic shear modulus",
+      "unitate": "Kg/cm²",
+      "coloana": "G (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.32,
+        "interval": "0.00-1.00",
+        "corelatie": "Ohsaki (Sabbie pulite)",
+        "valoare": "741.22",
+        "n_calcul": "13.32"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 14.01,
+        "interval": "1.00-2.00",
+        "corelatie": "Ohsaki (Sabbie pulite)",
+        "valoare": "777.26",
+        "n_calcul": "14.01"
+       }
+      ]
+     },
+     {
+      "parametru": "Shear wave velocity",
+      "unitate": "m/s",
+      "coloana": "Shear wave velocity (m/s)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.32,
+        "interval": "0.00-1.00",
+        "corelatie": "Ohta & Goto (1978) Silts",
+        "valoare": "93.66",
+        "n_calcul": "13.32"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 14.01,
+        "interval": "1.00-2.00",
+        "corelatie": "Ohta & Goto (1978) Silts",
+        "valoare": "116.8",
+        "n_calcul": "14.01"
+       }
+      ]
+     },
+     {
+      "parametru": "Coefficient of earth pressure at rest K0=SigmaH/P0",
+      "unitate": "",
+      "coloana": "K0",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.32,
+        "interval": "0.00-1.00",
+        "corelatie": "Navfac 1971-1982",
+        "valoare": "2.79",
+        "n_calcul": "13.32"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 14.01,
+        "interval": "1.00-2.00",
+        "corelatie": "Navfac 1971-1982",
+        "valoare": "2.93",
+        "n_calcul": "14.01"
+       }
+      ]
+     },
+     {
+      "parametru": "Qc (CPT Cone resistance)",
+      "unitate": "Kg/cm²",
+      "coloana": "Qc (Kg/cm²)",
+      "strate": [
+       {
+        "strat": 1,
+        "descriere": "Terasament stabilizat",
+        "nspt": 13.32,
+        "interval": "0.00-1.00",
+        "corelatie": "Robertson 1983",
+        "valoare": "26.64",
+        "n_calcul": "13.32"
+       },
+       {
+        "strat": 2,
+        "descriere": "Praf argilos loessoid",
+        "nspt": 14.01,
+        "interval": "1.00-2.00",
+        "corelatie": "Robertson 1983",
+        "valoare": "28.02",
+        "n_calcul": "14.01"
+       }
+      ]
+     }
+    ]
+   },
+   "ordine": 7
+  }
+ ],
+ "meteo": {
+  "2026-11-14": {
+   "weather_code": 80,
+   "temperature_2m_max": 16.9,
+   "temperature_2m_min": 1.3,
+   "temperature_2m_mean": 6.4,
+   "precipitation_sum": 14.4,
+   "wind_speed_10m_max": 17.1,
+   "wind_gusts_10m_max": 33.1,
+   "wind_direction_10m_dominant": 341,
+   "relative_humidity_2m_mean": 87,
+   "sunshine_duration": 0.0
+  },
+  "2026-11-15": {
+   "weather_code": 45,
+   "temperature_2m_max": 9.6,
+   "temperature_2m_min": 0.3,
+   "temperature_2m_mean": 4.3,
+   "precipitation_sum": 0.0,
+   "wind_speed_10m_max": 12.8,
+   "wind_gusts_10m_max": 23.4,
+   "wind_direction_10m_dominant": 118,
+   "relative_humidity_2m_mean": 84,
+   "sunshine_duration": 26751.98
+  },
+  "2026-11-16": {
+   "weather_code": 3,
+   "temperature_2m_max": 12.3,
+   "temperature_2m_min": 4.6,
+   "temperature_2m_mean": 8.8,
+   "precipitation_sum": 0.1,
+   "wind_speed_10m_max": 16.6,
+   "wind_gusts_10m_max": 29.5,
+   "wind_direction_10m_dominant": 139,
+   "relative_humidity_2m_mean": 78,
+   "sunshine_duration": 6086.63
+  },
+  "2026-11-17": {
+   "weather_code": 61,
+   "temperature_2m_max": 11.6,
+   "temperature_2m_min": 7.7,
+   "temperature_2m_mean": 9.4,
+   "precipitation_sum": 1.3,
+   "wind_speed_10m_max": 22.3,
+   "wind_gusts_10m_max": 40.7,
+   "wind_direction_10m_dominant": 246,
+   "relative_humidity_2m_mean": 87,
+   "sunshine_duration": 15173.43
+  },
+  "_meta": {
+   "sursa": "Open-Meteo (model de prognoză, nu reanaliză)",
+   "lat": 44.342,
+   "lon": 28.149,
+   "elevatie_m": 102.0
+  }
+ },
+ "figuri": [
+  {
+   "src": "photos/qgis/fig1_plan_satelit.jpg",
+   "thumb": "photos/qgis/t_fig1_plan_satelit.jpg",
+   "titlu": "Plan de situație pe imagine satelitară"
+  },
+  {
+   "src": "photos/qgis/fig_incadrare_satelit.jpg",
+   "thumb": "photos/qgis/t_fig_incadrare_satelit.jpg",
+   "titlu": "Încadrarea în zonă"
+  },
+  {
+   "src": "photos/qgis/fig_harta_geologica_200k.jpg",
+   "thumb": "photos/qgis/t_fig_harta_geologica_200k.jpg",
+   "titlu": "Harta geologică 1:200 000"
+  },
+  {
+   "src": "photos/qgis/fig_relief.jpg",
+   "thumb": "photos/qgis/t_fig_relief.jpg",
+   "titlu": "Unități și forme de relief"
+  },
+  {
+   "src": "photos/qgis/fig_topo_50k.jpg",
+   "thumb": "photos/qgis/t_fig_topo_50k.jpg",
+   "titlu": "Harta topografică 1:50 000"
+  }
+ ],
+ "observatii": [
+  "În teren punctele sunt notate L4 … L12, iar planul Rev. 03 le numește DPSH 1 … 23; corespondența nu reiese din documente.",
+  "Împărțirea 0–1,00 m / 1,00–2,00 m presupune că testele au pornit de la cota superioară a stratului IV (C.S.T.).",
+  "Modelul exact al penetrometrului Pagani nu se citește din fotografii; s-a folosit presetul TG 63-200.",
+  "Ordinea din animație urmează ora transmiterii fotografiilor (WhatsApp), nu ora execuției."
+ ]
+}
