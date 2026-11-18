@@ -746,10 +746,10 @@ function route(){
 window.addEventListener('hashchange', route);
 
 /* ============================ INIT ============================ */
-fetch('data.json').then(r=>r.json()).then(d => {
+fetch('data.json',{cache:'no-cache'}).then(r=>r.json()).then(d => {
   D = d; INV = d.dpsh.slice().sort((a,b)=> numSort(a.id,b.id));
   try { renderHome(); } catch(e){ console.error(e); }
-  fetch('terrain.json').then(r=>r.ok?r.json():null).then(T => { try { if (T && window.initIntro3D) window.initIntro3D(D, INV, T); } catch(e){ console.error(e); } }).catch(()=>{});
+  fetch('terrain.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(T => { try { if (T && window.initIntro3D) window.initIntro3D(D, INV, T); } catch(e){ console.error(e); } }).catch(()=>{});
   route();
   document.getElementById('btn-csv').onclick = exportCSV;
 }).catch(err => { document.getElementById('app').innerHTML = `<div class="wrap" style="padding:40px 20px"><h2>Nu s-a putut încărca <span class="mono">data.json</span></h2><p>${esc(err.message)}. Dacă deschizi fișierul direct de pe disc, rulează un server local (<span class="mono">python -m http.server</span>) sau publică pe GitHub Pages.</p></div>`; });
