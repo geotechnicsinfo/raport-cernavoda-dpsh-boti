@@ -378,8 +378,6 @@ ul.verif li{font-size:13.5px;background:var(--orange-l);border-left:3px solid va
         <div class="sec-h"><h2>Centralizator</h2><span class="n">lovituri pe 20 cm, citite din fișele de teren</span>
           <div class="right"><button class="btn" id="btn-csv">Descarcă CSV</button><button class="btn" onclick="window.print()">Tipărește</button></div></div>
         <div class="tblwrap"><table class="tbl" id="tbl"></table></div>
-        <div class="sec-h" style="margin-top:26px"><h2>De verificat</h2><span class="n">citiri nesigure și neconcordanțe între fișă și etichetă</span></div>
-        <ul class="verif" id="verif"></ul>
         <div class="sec-h" style="margin-top:26px"><h2>Metodă și ipoteze</h2></div>
         <div class="metoda" id="metoda"></div>
       </div>
@@ -479,7 +477,7 @@ function renderHome(){
   const leg = D.clase.map(c=>`<span><i style="background:${c.culoare}"></i>N<sub>20</sub> ${c.nume}</span>`).join('');
   document.getElementById('cls-leg').innerHTML = leg;
   document.getElementById('map-leg').innerHTML = `<span><i style="background:var(--orange)"></i>Penetrare DPSH executată (17.11.2026)</span><span style="color:var(--ink-3)">Planul Rev. 03 prevede 23 de teste DPSH (1 test / 200 m² pe tronson); pozițiile proiectate nu sunt disponibile în format numeric.</span>`;
-  renderGrid(); renderIzo(); renderCompare(); renderDynamic(); renderFigs(); renderDays(); renderTable(); renderVerif(); initMap();
+  renderGrid(); renderIzo(); renderCompare(); renderDynamic(); renderFigs(); renderDays(); renderTable(); initMap();
 }
 
 function strip(t, h=120){
@@ -627,10 +625,6 @@ function renderTable(){
     <li><b>N<sub>SPT</sub> echivalent:</b> N<sub>SPT</sub> = ${n2(E.beta)} · N<sub>20</sub> (coeficientul energetic al presetului). Este o corelație, nu o măsurătoare.</li>
     <li>Nu s-au aplicat corecții pentru frecarea pe tije sau energie și nu s-au derivat parametri geotehnici: pentru un pământ coeziv stabilizat cu liant, corelațiile uzuale N–φ/I<sub>D</sub>/E nu sunt calibrate.</li>
     <li>${esc(D.observatii[0])}</li><li>${esc(D.observatii[3])}</li></ul>`;
-}
-function renderVerif(){
-  const L = INV.flatMap(t=>t.note.map(n=>`<li><a href="#/p/${t.id}"><b>${t.id}</b></a> – ${esc(n)}</li>`));
-  document.getElementById('verif').innerHTML = L.join('') || '<li>Nicio observație.</li>';
 }
 function dlCSV(rows, name){
   const csv = rows.map(r=>r.map(v=>`"${String(v??'').replace(/"/g,'""')}"`).join(';')).join('\r\n');

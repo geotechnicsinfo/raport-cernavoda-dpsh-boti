@@ -7,7 +7,7 @@ pământ coeziv stabilizat cu liant hidraulic (beneficiar S.C. Elektra Power S.R
 Pentru fiecare penetrare: fișa de teren fotografiată + eticheta de la gura sondajului, transcrierea
 loviturilor, diagrama N<sub>20</sub> + q<sub>d</sub>, tabelul pe tronsoane de 20 cm, GPS + Stereo 70,
 mini-hartă, meteo, fotografii de teren. Plus: intro 3D (bloc de teren cu tijele „extrase”, colorate după
-N<sub>20</sub>), hartă, hărți de egale lovituri pe primul metru (IDW, din 20 în 20 cm), comparație între puncte, figuri QGIS, calendar, centralizator + CSV, lista „De verificat”.
+N<sub>20</sub>), hartă, hărți de egale lovituri pe primul metru (IDW, din 20 în 20 cm), comparație între puncte, figuri QGIS, calendar, centralizator + CSV.
 
 ## Structura
 
@@ -26,7 +26,7 @@ scripts/meteo.json    răspunsul Open-Meteo pentru 14–17.11.2026
 ## Surse de date (`Work\2026\Penetrari dpsh Cernavoda`)
 
 - `DPSH Cernavoda - lovituri.csv` – transcrierea fișelor (sursa de adevăr): punct, dată, GPS, cele 10 valori N<sub>20</sub>,
-  numele fotografiei cu fișa și al celei cu eticheta (+ rotația), observații de verificat (separate prin `|`, fără `;`).
+  numele fotografiei cu fișa și al celei cu eticheta (+ rotația), coloana opțională `de_verificat` (observații separate prin `|`, fără `;`; goală după confirmare).
 - `Raw data\L4 … L12` – fotografiile WhatsApp din teren.
 - `Input\Planuri Amplasare Teste In Situ Rev.03 …pdf` – planul Eco Geo Project (secțiunea 1,00 m terasament + 1,00 m teren natural).
 - `Qgis\` – proiectul QGIS, GeoJSON-ul cu punctele în Stereo 70 și scriptul de figuri.
@@ -54,8 +54,7 @@ N<sub>SPT</sub> = 1,47·N<sub>20</sub>. Valorile coincid cu cele afișate de Dyn
 
 ## Observații asupra datelor
 
-- L4 la 0,80 m: citit 39, posibil 33. L8 la 0,40 m: citit 30, posibil 31 sau 34. L6 la 1,80 m: 2 lovituri (păstrat).
-- L4: fișa indică N 44°20'09,3", eticheta 09,5" (reținut: fișa). L11: fișa indică 80,2" (imposibil), eticheta 08,2" (reținut: eticheta).
+- Citirile din fișe și coordonatele au fost confirmate de Ioan Boți (18.11.2026): L4 la 0,80 m = 39, L8 la 0,40 m = 30, L6 la 1,80 m = 2; L4 la N 44°20'09,3", L11 la N 44°20'08,2".
 - Punctele sunt notate în teren L4 … L12; planul Rev. 03 le numește DPSH 1 … 23 – corespondența nu reiese din documente.
 - Împărțirea 0–1 m / 1–2 m presupune că testele au pornit de la cota superioară a stratului IV (C.S.T.).
 - Modelul penetrometrului Pagani nu se citește din fotografii; s-a folosit presetul TG 63-200.

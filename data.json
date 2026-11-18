@@ -184,10 +184,7 @@
    "N_med_inf": 12.4,
    "qd_med_sup": 32.2,
    "qd_med_inf": 11.3,
-   "note": [
-    "La 0,80 m s-a citit 39 lovituri, dar a doua cifră poate fi și 3 (33).",
-    "Coordonate: fișa indică N 44°20'09,3\", eticheta din fotografie N 44°20'09,5\", s-a reținut valoarea din fișă."
-   ],
+   "note": [],
    "fisa_foto": {
     "src": "photos/L4/fisa1.jpg",
     "thumb": "photos/L4/t_fisa1.jpg",
@@ -1525,9 +1522,7 @@
    "N_med_inf": 5.6,
    "qd_med_sup": 12.9,
    "qd_med_inf": 5.1,
-   "note": [
-    "La 1,80 m în fișă apare 2 lovituri, mult sub valorile vecine (6 și 7), s-a păstrat valoarea scrisă."
-   ],
+   "note": [],
    "fisa_foto": {
     "src": "photos/L6/fisa1.jpg",
     "thumb": "photos/L6/t_fisa1.jpg",
@@ -2208,9 +2203,7 @@
    "N_med_inf": 8.8,
    "qd_med_sup": 17.0,
    "qd_med_inf": 7.9,
-   "note": [
-    "La 0,40 m a doua cifră este suprascrisă, s-a citit 30, dar poate fi și 31 sau 34."
-   ],
+   "note": [],
    "fisa_foto": {
     "src": "photos/L8/fisa1.jpg",
     "thumb": "photos/L8/t_fisa1.jpg",
@@ -3556,9 +3549,7 @@
    "N_med_inf": 10.2,
    "qd_med_sup": 15.1,
    "qd_med_inf": 9.2,
-   "note": [
-    "Coordonate: în fișă scrie N 44°20'80,2\" (imposibil), iar eticheta din fotografie indică 08,2\", valoare reținută."
-   ],
+   "note": [],
    "fisa_foto": {
     "src": "photos/L11/fisa1.jpg",
     "thumb": "photos/L11/t_fisa1.jpg",
