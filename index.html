@@ -558,7 +558,6 @@ function renderCompare(){
   document.getElementById('cmp-tbl').innerHTML = `<thead><tr><th>Punct</th><th>N₂₀ min–max</th><th>N₂₀ med. 0–1 m</th><th>N₂₀ med. 1–2 m</th><th>q<sub>d</sub> med. 0–1 m [MPa]</th><th>q<sub>d</sub> med. 1–2 m [MPa]</th></tr></thead><tbody>`+
     INV.map(t=>`<tr${hi===t.id?' style="background:var(--orange-l)"':''}><td><a href="#/p/${t.id}"><b>${t.id}</b></a></td><td class="num">${t.N_min}–${t.N_max}</td><td class="num">${n1(t.N_med_sup)}</td><td class="num">${n1(t.N_med_inf)}</td><td class="num">${n1(t.qd_med_sup)}</td><td class="num">${n1(t.qd_med_inf)}</td></tr>`).join('')+
     `<tr style="background:var(--bg-2)"><td><b>Media</b></td><td></td><td class="num"><b>${n1(mean('N_med_sup'))}</b></td><td class="num"><b>${n1(mean('N_med_inf'))}</b></td><td class="num"><b>${n1(mean('qd_med_sup'))}</b></td><td class="num"><b>${n1(mean('qd_med_inf'))}</b></td></tr></tbody>`;
-  document.getElementById('cmp-note').textContent = D.observatii[1];
 }
 
 /* ---- parametri din Dynamic (export RTF -> scripts/dynamic.json) ---- */
@@ -620,11 +619,10 @@ function renderTable(){
     INV.map(t=>`<tr><td><a href="#/p/${t.id}"><b>${t.id}</b></a></td><td class="num">${fmtDate(t.data)}</td><td class="num">${esc(t.gps_dms[0])}</td><td class="num">${esc(t.gps_dms[1])}</td><td class="num">${n1(t.stereo70.N)}</td><td class="num">${n1(t.stereo70.E)}</td>${t.randuri.map(r=>`<td class="num" style="background:${cls(r.cls).culoare}${r.cls>=3?';color:#fff':''}">${r.N}</td>`).join('')}</tr>`).join('')+'</tbody>';
   const E = D.echipament;
   document.getElementById('metoda').innerHTML = `<ul>
-    <li><b>Echipament:</b> ${esc(E.nume)} – berbec M = ${n1(E.M)} kg, cădere H = ${E.H/100} m, con A = ${n2(E.A)} cm² (${E.unghi}°), pas δ = ${E.pas} cm, tije 1 m × ${n2(E.tija_kg)} kg, nicovală ${n2(E.nicovala_kg)} kg. ${esc(D.observatii[2])}</li>
+    <li><b>Echipament:</b> ${esc(E.nume)} – berbec M = ${n1(E.M)} kg, cădere H = ${E.H/100} m, con A = ${n2(E.A)} cm² (${E.unghi}°), pas δ = ${E.pas} cm, tije 1 m × ${n2(E.tija_kg)} kg, nicovală ${n2(E.nicovala_kg)} kg.</li>
     <li><b>Rezistența dinamică (formula olandeză):</b> q<sub>d</sub> = M²·H / [A·e·(M+P)], e = δ/N<sub>20</sub>, P = masa nicovalei + a tijelor. Numărul de tije urmează regula din Dynamic (prima îmbinare la ${n2(E.prima_imbinare)} m). Valorile coincid cu cele din fișierul GeoStru Dynamic Probing al lucrării.</li>
     <li><b>N<sub>SPT</sub> echivalent:</b> N<sub>SPT</sub> = ${n2(E.beta)} · N<sub>20</sub> (coeficientul energetic al presetului). Este o corelație, nu o măsurătoare.</li>
-    <li>Nu s-au aplicat corecții pentru frecarea pe tije sau energie și nu s-au derivat parametri geotehnici: pentru un pământ coeziv stabilizat cu liant, corelațiile uzuale N–φ/I<sub>D</sub>/E nu sunt calibrate.</li>
-    <li>${esc(D.observatii[0])}</li><li>${esc(D.observatii[3])}</li></ul>`;
+    <li>Nu s-au aplicat corecții pentru frecarea pe tije sau energie și nu s-au derivat parametri geotehnici: pentru un pământ coeziv stabilizat cu liant, corelațiile uzuale N–φ/I<sub>D</sub>/E nu sunt calibrate.</li></ul>`;
 }
 function dlCSV(rows, name){
   const csv = rows.map(r=>r.map(v=>`"${String(v??'').replace(/"/g,'""')}"`).join(';')).join('\r\n');
@@ -705,7 +703,7 @@ function renderDetail(id){
           <thead><tr><th>Interval [m]</th><th>N₂₀</th><th>Nr. tije</th><th>R<sub>pd</sub> [kg/cm²]</th><th>q<sub>d</sub> [MPa]</th><th>N<sub>SPT</sub> echiv.</th></tr></thead><tbody>
           ${t.randuri.map(o=>`<tr><td class="num">${n2(o.z-0.2)} – ${n2(o.z)}</td><td class="num"><i style="display:inline-block;width:10px;height:10px;background:${cls(o.cls).culoare};border:1px solid #0A2F4F;margin-right:6px;vertical-align:-1px"></i><b>${o.N}</b></td><td class="num">${o.tije}</td><td class="num">${n2(o.rpd)}</td><td class="num">${n2(o.qd)}</td><td class="num">${n1(o.nspt)}</td></tr>`).join('')}
           </tbody></table></div></div>
-        <div class="panel" style="margin-top:16px"><h3>Secțiunea de referință <span class="n">planul Rev. 03</span></h3><div class="in">${D.sectiune.map(s=>`<div style="font-size:13.5px;margin:2px 0"><span class="mono">${n2(s.de)} – ${n2(s.la)} m</span> · ${esc(s.nume)}</div>`).join('')}<div class="src">${esc(D.observatii[1])}</div></div></div>
+        <div class="panel" style="margin-top:16px"><h3>Secțiunea de referință <span class="n">planul Rev. 03</span></h3><div class="in">${D.sectiune.map(s=>`<div style="font-size:13.5px;margin:2px 0"><span class="mono">${n2(s.de)} – ${n2(s.la)} m</span> · ${esc(s.nume)}</div>`).join('')}</div></div>
         <div class="panel" style="margin-top:16px"><h3>Poziție <span class="n">imagine satelit Esri</span></h3><div id="mini" style="height:260px"></div></div>
         ${dyPanel(t)}
         ${wxPanel(t.data)}
